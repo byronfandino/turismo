@@ -4,6 +4,7 @@
     --piel:#EB5B00;
     --amarillo:#FFCC00;
     --blanco:#fff;
+    --negro:#000;
     --fuente-principal: Arial, Helvetica, "Segoe UI", sans-serif;
 }
 
@@ -29,13 +30,9 @@ a{
 
 /* Resolución de celular */
 .header{
+    background-color: var(--amarillo);
     display: flex;
-    flex-flow: column wrap;
-}
-
-/* Resolución de tablet */
-@media (min-width:600px){
-
+    flex-flow: row wrap;
 }
 
 /*Resolución de desktop*/
@@ -48,7 +45,14 @@ a{
 
 .contenedor-bandera{
     display:inline-block;
-    height: 7rem;
+    height: 4rem;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .contenedor-bandera{
+        height: 7rem;
+    }
 }
 
 .contenedor-bandera > img{
@@ -65,10 +69,58 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .titulo-nivel1{
+        font-size: 2rem;
+    }
+}
+
+.btn-abrir-menu{
+    font-size: 1.8rem;
+    padding: 0rem 1rem;
+    color: var(--negro);
+    align-self: center;
+    cursor: pointer;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .btn-abrir-menu{
+        display: none;
+    }
+}
+
+.menu{
+    background-color: var(--morado);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:-100%;
+    transition: left 0.3s ease;
+    z-index: 1;
+}
+
+.menu.activo{
+    left:0;
+    transition: left 0.3s ease;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .menu{
+        position: static;
+        width: 100%;
+        height: auto;
+    }
 }
 
 .menu > ul {
-    background-color: var(--morado);
+    /* background-color: var(--morado); */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -86,6 +138,14 @@ a{
     flex:1;
     display: flex;
     flex-flow: row wrap;
+}
+
+/* El boton cerrar se alinea a la derecha mediante su contenedor */
+.menu > ul > li:first-child{
+    flex:1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 .menu > ul > li > a{
@@ -107,4 +167,15 @@ a{
 
 .menu > ul > li > a:hover{
     background-color: #800f7a;
+}
+
+.menu .btn-cerrar-menu{
+    flex:0;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .menu .btn-cerrar-menu{
+        display: none;
+    }
 }

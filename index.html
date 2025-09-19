@@ -8,23 +8,27 @@
     <title>Viajes turísticos en España</title>
 </head>
 <body class="body">
+
     <header class="header">
         <figure class="contenedor-bandera">
-            <img src="./img/bandera.jpg" alt="Bandera de España">
+            <img src="./img/bandera.webp" alt="Bandera de España">
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
+        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
     </header>
-    <nav class="menu">
+
+    <nav id="menu" class="menu">
+        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Mapa</a></li>
             <li><a href="#">Destinos principales</a>
-                <ul class="submenu">
+                <!-- <ul class="submenu">
                     <li><a href="/destinos-principales/playa">Playa</a></li>
                     <li><a href="/destinos-principales/montana">Montaña</a></li>
                     <li><a href="/destinos-principales/ciudades">Ciudades</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li><a href="#">Ciudades patrimonio</a></li>
             <li><a href="#">Comunidades autónomas</a></li>
@@ -43,5 +47,6 @@
             <li><a href="#">Instagram</a></li>
         </ul>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 </html>
