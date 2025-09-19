@@ -1,5 +1,6 @@
 :root{
     --morado: #640D5F;
+    --morado-hover: #800f7a;
     --rojo:#B12C00;
     --piel:#EB5B00;
     --amarillo:#FFCC00;
@@ -33,6 +34,7 @@ a{
     background-color: var(--amarillo);
     display: flex;
     flex-flow: row wrap;
+    z-index: 5;
 }
 
 /*Resolución de desktop*/
@@ -94,6 +96,7 @@ a{
     }
 }
 
+/*Inicio de la configuración del menu de navegación*/
 .menu{
     background-color: var(--morado);
     position: fixed;
@@ -102,7 +105,7 @@ a{
     top:0;
     left:-100%;
     transition: left 0.3s ease;
-    z-index: 1;
+    z-index: 5;
 }
 
 .menu.activo{
@@ -119,8 +122,8 @@ a{
     }
 }
 
-.menu > ul {
-    /* background-color: var(--morado); */
+.menu > ul, /*ul del Menu*/
+.menu > ul ul { /*ul del SubMenú*/
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -128,13 +131,15 @@ a{
 }
 
 @media (min-width:1200px){
-    .menu > ul {
+    .menu > ul{
         flex-flow: row wrap;
         justify-content: center;
     }
 }
 
-.menu > ul > li {
+.menu > ul > li,
+.menu > ul ul > li {
+    position: relative;
     flex:1;
     display: flex;
     flex-flow: row wrap;
@@ -148,7 +153,8 @@ a{
     justify-content: flex-end;
 }
 
-.menu > ul > li > a{
+.menu > ul > li > a,
+.menu > ul ul > li > a {
     flex:1;
     padding:1rem;
 
@@ -165,8 +171,9 @@ a{
     }
 }
 
-.menu > ul > li > a:hover{
-    background-color: #800f7a;
+.menu > ul > li > a:hover,
+.menu > ul ul > li > a:hover {
+    background-color: var(--morado-hover);
 }
 
 .menu .btn-cerrar-menu{
@@ -178,4 +185,58 @@ a{
     .menu .btn-cerrar-menu{
         display: none;
     }
+}
+/* Fin de la configuración del menú de navegación */
+
+.submenu{
+    background-color: var(--blanco);
+    position:initial;
+    width: 100%;
+
+    z-index: 1;
+
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, 
+                opacity 0.3s ease,
+                bottom 1s ease;
+
+    /* transition: bottom 0.3s ease; */
+}   
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .submenu{
+        position: absolute;
+        top:100%;
+        background-color: var(--morado);
+    }   
+}
+
+.submenu > li > a{
+    color: var(--morado);
+}
+
+/* Se activa por medio de Javascript para que el submenu aparezca en resolución movil y tablet */
+.submenu.activo{
+    max-height: 20rem;
+    opacity: 1;
+}
+
+.submenu > li > a:hover{
+    background-color: var(--morado);
+    color: var(--blanco);
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .submenu > li > a{
+        color: var(--blanco);
+    }
+
+    .menu > ul > li:hover .submenu{
+        max-height: 20rem;
+        opacity: 1;
+    }   
 }
