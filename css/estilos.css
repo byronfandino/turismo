@@ -1,6 +1,6 @@
 :root{
     --morado: #640D5F;
-    --morado-submenu: #74096e;
+    --morado-light: #74096e;
     --morado-hover: #800f7a;
     --rojo:#B12C00;
     --piel:#EB5B00;
@@ -190,7 +190,7 @@ a{
 /* Fin de la configuración del menú de navegación */
 
 .submenu{
-    background-color: var(--morado-submenu);
+    background-color: var(--morado-light);
     position:initial;
     width: 100%;
 
