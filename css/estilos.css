@@ -1,5 +1,6 @@
 :root{
     --morado: #640D5F;
+    --morado-submenu: #74096e;
     --morado-hover: #800f7a;
     --rojo:#B12C00;
     --piel:#EB5B00;
@@ -154,7 +155,7 @@ a{
 }
 
 .menu > ul > li > a,
-.menu > ul ul > li > a {
+.submenu > li > a {
     flex:1;
     padding:1rem;
 
@@ -189,7 +190,7 @@ a{
 /* Fin de la configuración del menú de navegación */
 
 .submenu{
-    background-color: var(--blanco);
+    background-color: var(--morado-submenu);
     position:initial;
     width: 100%;
 
@@ -200,7 +201,7 @@ a{
     overflow: hidden;
     transition: max-height 0.3s ease, 
                 opacity 0.3s ease,
-                bottom 1s ease;
+                bottom 0.3s ease;
 
     /* transition: bottom 0.3s ease; */
 }   
@@ -215,7 +216,8 @@ a{
 }
 
 .submenu > li > a{
-    color: var(--morado);
+    color: var(--blanco);
+    padding-left: 2rem;
 }
 
 /* Se activa por medio de Javascript para que el submenu aparezca en resolución movil y tablet */
@@ -231,10 +233,6 @@ a{
 
 /*Resolución de desktop*/
 @media (min-width:1200px){
-    .submenu > li > a{
-        color: var(--blanco);
-    }
-
     .menu > ul > li:hover .submenu{
         max-height: 20rem;
         opacity: 1;
