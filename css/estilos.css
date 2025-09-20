@@ -268,14 +268,15 @@ a{
 
 @media (min-width:600px){
     .carrusel{
-        height: 25rem;
+        width: 70%;
+        height: 20rem;
     }
 }
 
 @media (min-width:1200px){
     .carrusel{
-        width: 70%;
-        height: 25rem;
+        width: 60%;
+        height: 20rem;
     }
 }
 
