@@ -15,19 +15,41 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0; /* elimina márgenes que pueden empujar el contenido */
+  padding: 0;
+}
+
+.body{
     font-family: var(--fuente-principal);
+    display: grid;
+    min-height: 100vh;
 }
 
 .body-inicio {
-  display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+}
+
+.body-historia {
+  grid-template-rows: auto auto;
+}
+
+.body-mapa {
+  grid-template-rows: auto 1fr;
 }
 
 /*Resolución de desktop*/
 @media (min-width:1200px){
     .body-inicio{
         grid-template-rows: auto auto 1fr auto;
+    }
+    .body-historia{
+        grid-template-rows: auto auto 1fr;
+    }
+    .body-mapa{
+        grid-template-rows: auto auto 1fr;
     }
 }
 
@@ -293,6 +315,13 @@ a{
     }
 }
 
+@media (min-width:1700px){
+    .carrusel{
+        width: 60%;
+        height: 40rem;
+    }
+}
+
 .slide {
     position: absolute;
     top: 0;
@@ -437,3 +466,13 @@ a{
 }
 
 /*Fin del main-historia*/
+
+/*Configuración del main-mapa*/
+
+.main-mapa{
+    display: flex;
+}
+
+.main-mapa > iframe{
+    flex:1;
+}
