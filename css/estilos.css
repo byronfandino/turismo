@@ -237,7 +237,7 @@ a{
     color: var(--blanco);
 }
 
-.menu-resaltado{
+.menu-activo{
     background-color: var(--morado-hover);
 }
 
