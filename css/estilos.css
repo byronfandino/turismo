@@ -15,10 +15,10 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: var(--fuente-principal);
 }
 
-.body {
-  font-family: var(--fuente-principal);
+.body-inicio {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
@@ -26,7 +26,7 @@
 
 /*Resolución de desktop*/
 @media (min-width:1200px){
-    .body{
+    .body-inicio{
         grid-template-rows: auto auto 1fr auto;
     }
 }
@@ -262,7 +262,7 @@ a{
 /* Fin de la configuración del menú de navegación */
 
 /* Inicio de la configuración del carrusel */
-.main{
+.main-inicio{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +339,7 @@ a{
 /* Empieza el footer */
 .footer{
     background-color: var(--piel);
-    padding:2rem 5rem;
+    padding:1rem 5rem;
 }
 
 .footer > .titulo-nivel2{
@@ -382,3 +382,58 @@ a{
 
 /* Termina el footer */
 
+/*Configuración del main-historia*/
+
+.main-historia{
+    margin: 1.5rem 0;
+    padding: 0rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .main-historia{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+    }
+}
+
+.main-historia > section:nth-child(2){
+    display: grid;
+    gap: 1rem;
+}
+
+.main-historia > section > .titulo-nivel2{
+    margin-bottom: 1rem;
+}
+
+.main-historia > section > figure{
+    width: 100%;
+    box-shadow: 5px 5px 5px var(--sombra-caja);
+    overflow: hidden;
+}
+
+.main-historia > section > figure > img{
+    width: 100%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+}
+
+.main-historia > section > iframe{
+    width: 100%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
+}
+
+/*Fin del main-historia*/
