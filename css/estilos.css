@@ -155,15 +155,6 @@ a{
     flex-flow: row wrap;
 }
 
-/* El boton cerrar se alinea a la derecha mediante su contenedor */
-.menu > ul > li:first-child{
-    flex:1;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    margin-right: 1rem;
-}
-
 .menu > ul > li > a,
 .submenu > li > a {
     flex:1;
@@ -187,8 +178,15 @@ a{
     background-color: var(--morado-hover);
 }
 
-.menu .btn-cerrar-menu{
-    flex:0;
+/* Inicio de la configuración del Botón cerrar menú */
+.menu > ul:first-child > li {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu > ul:first-child > li > a.btn-cerrar-menu{
+    flex:0; 
+    margin-right: 1rem;
 }
 
 /*Resolución de desktop*/
@@ -197,6 +195,7 @@ a{
         display: none;
     }
 }
+/* Fin de la configuración del Botón cerrar menú */
 
 .submenu{
     background-color: var(--morado-light);
@@ -239,7 +238,7 @@ a{
 }
 
 .menu-resaltado{
-
+    background-color: var(--morado-hover);
 }
 
 /*Resolución de desktop*/
