@@ -119,6 +119,13 @@ a{
     overflow-y: scroll;
 }
 
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .menu{
+        overflow-y: initial;
+    }
+}
+
 .menu.activo{
     left:0;
     transition: left 0.3s ease;
