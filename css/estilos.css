@@ -238,6 +238,10 @@ a{
     color: var(--blanco);
 }
 
+.menu-resaltado{
+
+}
+
 /*Resolución de desktop*/
 @media (min-width:1200px){
     .menu > ul > li:hover .submenu{
@@ -293,23 +297,23 @@ a{
 }
 
 .slide-1{ 
-    background-image: url('../img/Carrusel_1.jpg');
+    background-image: url('../images/Carrusel_1.jpg');
     animation-delay: 0s; 
 }
 .slide-2{ 
-    background-image: url('../img/Carrusel_2.jpg');
+    background-image: url('../images/Carrusel_2.jpg');
     animation-delay: 5s; 
 }
 .slide-3{ 
-    background-image: url('../img/Carrusel_3.jpg');
+    background-image: url('../images/Carrusel_3.jpg');
     animation-delay: 10s; 
 }
 .slide-4{ 
-    background-image: url('../img/Carrusel_4.jpg');
+    background-image: url('../images/Carrusel_4.jpg');
     animation-delay: 15s; 
 }
 .slide-5{ 
-    background-image: url('../img/Carrusel_5.jpg');
+    background-image: url('../images/Carrusel_5.jpg');
     animation-delay: 20s; 
 }
 
@@ -329,7 +333,7 @@ a{
     padding:2rem 5rem;
 }
 
-.titulo-footer{
+.footer > .titulo-nivel2{
     color: var(--blanco);
     text-align: center;
     font-size: 1.5rem;
@@ -337,7 +341,7 @@ a{
 
 /*Resolución de tablet*/
 @media (min-width:600px){
-    .titulo-footer{
+    .footer > .titulo-nivel2{
         text-align: left;
         font-size: 1.5rem;
     }
