@@ -116,6 +116,7 @@ a{
     left:-105%;
     transition: left 0.3s ease;
     z-index: 5;
+    overflow-y: scroll;
 }
 
 .menu.activo{
@@ -135,7 +136,7 @@ a{
 .menu > ul, /*ul del Menu*/
 .menu > ul ul { /*ul del SubMenú*/
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: stretch;
 }
@@ -228,7 +229,7 @@ a{
 
 /* Se activa por medio de Javascript para que el submenu aparezca en resolución movil y tablet */
 .submenu.activo{
-    max-height: 20rem;
+    max-height: 50rem;
     opacity: 1;
 }
 
@@ -244,7 +245,7 @@ a{
 /*Resolución de desktop*/
 @media (min-width:1200px){
     .menu > ul > li:hover .submenu{
-        max-height: 20rem;
+        max-height: 50rem;
         opacity: 1;
     }   
 }
