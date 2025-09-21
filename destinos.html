@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Viajes turísticos en España</title>
 </head>
-<body class="body body-historia">
+<body class="body body-destinos">
 
     <header class="header">
         <figure class="contenedor-bandera">
-            <img src="./images/bandera.webp" alt="Bandera de España">
+            <img src="./images/bandera.webp" alt="Bandera de España" loading="lazy">
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
@@ -22,9 +22,9 @@
         <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
         <ul>
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./historia.html" class="menu-activo">Historia</a></li>
+            <li><a href="./historia.html">Historia</a></li>
             <li><a href="./mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="" class="menu-activo">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./destinos.html#caceres">Caceres</a></li>
                     <li><a href="./destinos.html#islas">Islas Baleares</a></li>
@@ -48,37 +48,83 @@
                     <li><a href="./ciudades.html#ubeda">Ubeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="./comunidades.html#aragon">Aragón</a></li>
                     <li><a href="./comunidades.html#islas-canarias">Islas canarias</a></li>
-                    <li><a href="./comunidades.html#ciudad-de-ceuta">Ciudad de ceuta</a></li>
-                    <li><a href="./comunidades.html#comunidad-de-madrid">Comunidad de madrid</a></li>
+                    <li><a href="./comunidades.html#ciudad-de-ceuta">Ciudad de Ceuta</a></li>
+                    <li><a href="./comunidades.html#comunidad-de-madrid">Comunidad de Madrid</a></li>
                     <li><a href="./comunidades.html#galicia">Galicia</a></li>
-                    <li><a href="./comunidades.html#pais-vasco">Pais vasco</a></li>
-                    <li><a href="./comunidades.html#region-de-marcia">Región de marcia</a></li>
+                    <li><a href="./comunidades.html#pais-vasco">País Vasco</a></li>
+                    <li><a href="./comunidades.html#region-de-murcia">Región de murcia</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
 
-    <main class="main-historia">
-        <section>
-            <h2 class="titulo-nivel2">Historia</h2>
+    <main class="main-destinos">
+        <h2 class="titulo-nivel2">Destinos Principales</h2>
+        <section id="caceres">
+            <h3 class="titulo-nivel3">Caceres</h3>
             <p>
-                A lo largo de los años, el territorio que ocupa España ha sido el objetivo de los imperios más importantes: cartagineses y romanos lucharon por ella, los árabes la conquistaron y, después, los reyes cristianos comenzaron lo que llegó a ser el imperio más grande del mundo con el descubrimiento de América. De hecho, con el rey Felipe II no había momento en el día en el que el sol no cubriera algún territorio castellano: desde Filipinas hasta América, uniendo los territorios de España, Portugal, Flandes, Italia y algunas zonas de la actual Alemania.
+                Esta ciudad de Extremadura conocida como “la Villa de los mil y un escudos” siempre merece un viaje.  Te recomendamos acceder a la ciudad por su entrada tradicional: el Arco de la Estrella, del siglo XVIII y con un ancho pensado para que pasaran los carruajes. A partir de aquí, se presentará ante ti la amplia Plaza Mayor, siempre llena de vida, rodeada de soportales y perfecta para tomar algo.
             </p>
-        </section>
-        <section>
-            <figure>
-                <img src="./images/Historia_1.png" alt="Imagen de la historia de España">
-            </figure>
-            <figure>
-                <img src="./images/Historia_2.png" alt="Imagen de la historia de España">
-            </figure>
-        </section>
-        <section>
-            <iframe width="670" height="377" src="https://www.youtube.com/embed/XvHCHVoKhNs" title="La HISTORIA de ESPAÑA a través del tiempo: del origen a nuestros días" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p>Lugares que puedes visitar</p>
+
+            <article>
+                <div>
+                    <h4 class="titulo-nivel4">Plaza Mayor</h4>
+                    <p>
+                        Es sin duda, un imprescindible de la ciudad. Esta rodeada por soportales del siglo XVI y, en ella, encontrarás:
+                    </p>
+                    <ul>
+                        <li>
+                            El Ayuntamiento, un bonito edificio del siglo XIX.
+                        </li>
+                        <li>
+                            La Torre de Bujaco es la más importante de la ciudad, una construcción de 25 metros de altura y origen árabe. En su interior podrás visitar el Centro de Interpretación de las Tres Culturas. Además, no te puedes ir sin subir a lo alto de la torre.
+                        </li>
+                        <li>
+                            La Torre de los Púlpitos, de origen cristiano y 16 metros de altura, está adosada a la parte externa de la muralla. Se puede visitar entrando a través de la torre de Bujaco.
+                        </li>
+                        <li>
+                            La Torre de Yerba, una construcción de origen árabe, en concreto de las últimas en construirse mientras Cáceres estuvo en poder musulmán.
+                        </li>
+                        <li>
+                            La Ermita de la Paz, se construyó sobre los restos de una capilla renacentista del siglo XVI.
+                        </li>
+                        <li>
+                            El Arco de la Estrella, es la principal puerta de entrada al recinto amurallado de Cáceres. Aunque se abrió en el siglo XV, su forma actual es obra de Manuel de Lara Churriguera y se realizó en 1726.
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="./images/Plaza_mayor.png" alt="Imagen de la Plaza Mayor" loading="lazy">
+                </figure>
+            </article>
+            <article>
+                <div>
+                    <h4 class="titulo-nivel4">Plaza de Santa María</h4>
+                    <p>
+                        Esta plaza es otra de las más importantes de la ciudad. Se utilizó durante mucho tiempo como mercado e incluso como lugar de celebración de bodas de la nobleza. En ella verás:
+                    </p>
+                    <ul>
+                        <li>
+                            La Concatedral de Cáceres, una iglesia que se remonta al siglo XIII pero que, tras su destrucción, se reconstruyó como es ahora durante los siglos XV y XVI. No te puedes perder su interior de estilo gótico y las vistas desde su torre campanario, desde donde observarás una panorámica de 360º.
+                        </li>
+                        <li>
+                            El Palacio Episcopal. Su parte más antigua data del siglo XIII y su última modificación del siglo XVII.
+                        </li>
+                        <li>
+                            El Palacio de Hernando de Ovando, de estilo renacentista. Construido en el siglo XV y reformado en el XVIII.
+                        </li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="./images/Plaza_mayor.png" alt="Imagen de la Plaza Mayor" loading="lazy">
+                </figure>
+            </article>
         </section>
     </main>
     <script src="./js/app.js"></script>
