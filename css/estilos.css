@@ -487,6 +487,21 @@ a{
 /* Inicio del main-destinos */
 .main-destinos {
     padding:1rem;
+    margin: auto;
+}
+
+/*Resolución de tablet*/
+@media (min-width:600px){
+    .main-destinos {
+        width: 85%;
+    }
+}
+
+/*Resolución de Desktop*/
+@media (min-width:1200px){
+     .main-destinos {
+        width: 75%;
+    }   
 }
 
 .main-destinos > .titulo-nivel2 {
@@ -522,6 +537,8 @@ a{
 @media (min-width:1200px){
     .main-destinos > section > article > figure > img{
         margin-top:3.5rem;
+        opacity: 0;
+        animation: aparecer 1s ease forwards;
     }
 }
 
