@@ -530,7 +530,7 @@ a{
 
 .main-destinos > section > article > figure {
     width: 100%;
-
+    text-align: center;
 }
 
 /*Resolución de Desktop*/
@@ -578,3 +578,9 @@ a{
 }
 
 /* Fin de islas-baleares*/
+
+.imagen-vertical{
+    height: 20rem;
+    width: auto;
+    
+}
