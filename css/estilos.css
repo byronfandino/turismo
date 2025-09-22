@@ -554,4 +554,27 @@ a{
 
 /* Fin del main-destinos caceres */
 
-.main-destinos > section > article > div
+/* inicio de islas-baleares*/
+
+.contenedor_imagen > figure{
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+/*Resolución de tablet*/
+@media (min-width:600px){
+    .contenedor_imagen > figure{
+        height: 20rem;
+    }
+}
+
+/*Resolución de desktop*/
+@media (min-width:1200px){
+    .contenedor_imagen > figure{
+        height: 15rem;
+    }
+}
+
+/* Fin de islas-baleares*/
