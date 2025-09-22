@@ -508,9 +508,8 @@ a{
     text-align: center;
     /* margin-bottom: 1rem; */
 }
-
-.main-destinos .titulo-nivel3,
-.main-destinos .titulo-nivel4 {
+.main-destinos .titulo-nivel2,
+.main-destinos .titulo-nivel3{
     margin: 1rem 0;
 }
 
