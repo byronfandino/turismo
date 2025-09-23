@@ -632,6 +632,7 @@ a{
 .contenedor-imagenes-x3{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 /*Resolución de Desktop*/
