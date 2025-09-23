@@ -585,6 +585,49 @@ a{
 }
 /* Fin de imágenes verticales*/
 
+/* Contenedor de 1 imagen */
+.contenedor-imagen-x1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Resolución de tablet*/
+@media (min-width:600px){
+    .contenedor-imagen-x1 {
+        width: 70%;
+    }
+}
+
+/* Fin del contenedor de 1 imagen */
+
+/* Contenedor de 2 imágenes en grid */
+
+.main-destinos > section > article.articulo-imagenes-x2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/*Resolución de Desktop*/
+@media (min-width:1200px){
+
+    .main-destinos > section > article.articulo-imagenes-x2 > div:nth-child(1){
+
+        grid-column: 1 / -1;
+        justify-self: center;     
+        width: 100%;
+    }
+    .main-destinos > section > article.articulo-imagenes-x2 > div:nth-child(2){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+/* Fin del contenedor de 2 imágenes en grid */
+
+
+
 /* Contenedor de 3 imágenes en grid */
 .contenedor-imagenes-x3{
     display: grid;
