@@ -582,3 +582,22 @@ a{
     height: 20rem;
     width: auto;
 }
+
+.contenedor-imagenes-x3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Resolución de Desktop*/
+@media (min-width:1200px){
+    .contenedor-imagenes-x3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor-imagenes-x3 > div:nth-child(3){
+        border: 1px solid red;
+        grid-column: 1 / -1;      /* ocupa todas las columnas */
+        justify-self: center;     /* se centra dentro del grid */
+        width: 50%;
+    }
+}
