@@ -598,9 +598,10 @@ a{
     }
 
     .contenedor-imagenes-x3 > div:nth-child(3){
-        grid-column: 1 / -1;      /* ocupa todas las columnas */
-        justify-self: center;     /* se centra dentro del grid */
+        grid-column: 1 / -1; /* ocupa todas las columnas */
+        justify-self: center;     
         width: 50%;
     }
 }
 /* Fin del contenedor de 3 imágenes en grid */
+
