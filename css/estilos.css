@@ -565,7 +565,7 @@ a{
 /*Resolución de tablet*/
 @media (min-width:600px){
     .contenedor_imagen > figure{
-        height: 20rem;
+        height: 25rem;
     }
 }
 
@@ -578,11 +578,14 @@ a{
 
 /* Fin de islas-baleares*/
 
+/* Configuración de estilos para imágenes verticales */
 .imagen-vertical{
     height: 20rem;
     width: auto;
 }
+/* Fin de imágenes verticales*/
 
+/* Contenedor de 3 imágenes en grid */
 .contenedor-imagenes-x3{
     display: grid;
     grid-template-columns: 1fr;
@@ -595,9 +598,9 @@ a{
     }
 
     .contenedor-imagenes-x3 > div:nth-child(3){
-        border: 1px solid red;
         grid-column: 1 / -1;      /* ocupa todas las columnas */
         justify-self: center;     /* se centra dentro del grid */
         width: 50%;
     }
 }
+/* Fin del contenedor de 3 imágenes en grid */
