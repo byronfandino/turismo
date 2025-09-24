@@ -608,6 +608,22 @@ a{
     gap: 1rem;
 }
 
+
+/*Resolución de Tablet*/
+@media (min-width:600px){
+
+    .main-destinos > section > article.articulo-imagenes-x2 > div:nth-child(2){
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .main-destinos > section > article.articulo-imagenes-x2 > div:nth-child(2) > figure{
+        height: 35rem;
+        overflow: hidden;
+    }
+}
+
 /*Resolución de Desktop*/
 @media (min-width:1200px){
 
@@ -621,6 +637,11 @@ a{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+
+    .main-destinos > section > article.articulo-imagenes-x2 > div:nth-child(2) > figure{
+        height: 25rem;
+        overflow: hidden;
     }
 }
 
