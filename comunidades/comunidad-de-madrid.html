@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="menu-activo">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="./aragon.html">Aragón</a></li>
                     <li><a href="./islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Comunidades Autónomas</h2>
         <section>
-            <h2 class="titulo-nivel2">Comunidad de Madrid</h3>
+            <h3 class="titulo-nivel3">Comunidad de Madrid</h3>
             <p>
                 Madrid es cultura y vida en la calle. En la capital dispones de muchos de los museos más visitados de España y en los alrededores podrás visitar conjuntos monumentales impresionantes.
             </p>
@@ -79,7 +81,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Nuevo Baztán</h3>
+                    <h4 class="titulo-nivel4">Nuevo Baztán</h4>
                     <p>
                         Juan de Goyeneche fundó, en el siglo XVIII, este pueblo, tras encargar su diseño al arquitecto José de Churriguera. Su casco antiguo está declarado Bien de Interés Cultural.
                     </p>
@@ -94,7 +96,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Batres</h3>
+                    <h4 class="titulo-nivel4">Batres</h4>
                     <p>
                         Batres está muy vinculado a una de las figuras más importantes de la literatura española, Garcilaso de la Vega. En su emblemático castillo pasó parte de su infancia el poeta, ya que sus padres ostentaron el señorío de la localidad. Su casco antiguo está declarado Bien de Interés Cultural.
                     </p>
@@ -112,7 +114,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">San Lorenzo de El Escorial</h3>
+                    <h4 class="titulo-nivel4">San Lorenzo de El Escorial</h4>
                     <p>
                         En plena Sierra de Guadarrama, a tan sólo 50 kilómetros de Madrid, se emplaza la localidad de San Lorenzo de El Escorial..
                     </p>

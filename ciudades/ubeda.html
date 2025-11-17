@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#"  class="menu-activo">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="./alcala.html">Alcalá de Henares</a></li>
                     <li><a href="./avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="./ubeda.html" class="menu-activo">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Ciudades de Patrimonio</h2>
         <section>
-            <h2 class="titulo-nivel2">Ubeda</h3>
+            <h3 class="titulo-nivel3">Ubeda</h3>
             <p>
                 Los bellos edificios renacentistas son el reclamo principal de esta Ciudad Patrimonio de la Humanidad que, junto a su vecina Baeza, es uno de los mejores lugares de Europa para hacerse una idea de cómo fue el arte durante el Renacimiento.
             </p>
@@ -80,7 +82,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Capilla de El Salvador</h3>
+                    <h4 class="titulo-nivel4">Capilla de El Salvador</h4>
                     <p>
                         Se encuentra en un enclave inigualable de Úbeda, junto a varios palacios que rodean la interesante Plaza de Vázquez de Molina.
                     </p>
@@ -95,7 +97,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Plaza de Vázquez de Molina</h3>
+                    <h4 class="titulo-nivel4">Plaza de Vázquez de Molina</h4>
                     <p>
                         Se mire donde se mire, cualquier parte de la Plaza de Vázquez de Molina es una obra de arte.
                     </p>
@@ -110,7 +112,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Museo Arqueológico de Úbeda</h3>
+                    <h4 class="titulo-nivel4">Museo Arqueológico de Úbeda</h4>
                     <p>
                         Situado en una casa mudéjar del siglo XIV, el museo lleva en funcionamiento desde 1973.
                     </p>

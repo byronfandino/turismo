@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#" class="menu-activo">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./caceres.html" class="menu-activo">Cáceres</a></li>
                     <li><a href="./islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="./santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Destinos Principales</h2>
         <section>
-            <h2 class="titulo-nivel2">Cáceres</h3>
+            <h3 class="titulo-nivel3">Cáceres</h3>
             <p>
                 Esta ciudad de Extremadura conocida como “la Villa de los mil y un escudos” siempre merece un viaje.  Te recomendamos acceder a la ciudad por su entrada tradicional: el Arco de la Estrella, del siglo XVIII y con un ancho pensado para que pasaran los carruajes. A partir de aquí, se presentará ante ti la amplia Plaza Mayor, siempre llena de vida, rodeada de soportales y perfecta para tomar algo.
             </p>
@@ -73,7 +75,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Plaza Mayor</h3>
+                    <h4 class="titulo-nivel4">Plaza Mayor</h4>
                     <p>
                         Es sin duda, un imprescindible de la ciudad. Esta rodeada por soportales del siglo XVI y, en ella, encontrarás:
                     </p>
@@ -105,7 +107,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Plaza de Santa María</h3>
+                    <h4 class="titulo-nivel4">Plaza de Santa María</h4>
                     <p>
                         Esta plaza es otra de las más importantes de la ciudad. Se utilizó durante mucho tiempo como mercado e incluso como lugar de celebración de bodas de la nobleza. En ella verás:
                     </p>
@@ -128,7 +130,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Plaza de San Jorge</h3>
+                    <h4 class="titulo-nivel4">Plaza de San Jorge</h4>
                     <p>
                         En esta plaza de gran belleza te sorprenderá la Iglesia de San Francisco Javier, una iglesia jesuita de estilo barroco construida en el siglo XVIII. 
                     </p>
@@ -148,7 +150,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La Muralla</h3>
+                    <h4 class="titulo-nivel4">La Muralla</h4>
                     <p>
                         Sin duda, es uno de los principales monumentos de Cáceres. Es de origen romano y más tarde, en el siglo XII, fue reconstruida por los almohades. 
                     </p>
@@ -168,11 +170,10 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Gastronomía</h3>
+                    <h4 class="titulo-nivel4">Gastronomía</h4>
                     <p>
                         Si eres un amante de la gastronomía, estos son algunos de los platos típicos que deberías probar: la Torta del Casar, un queso cremoso producido en la provincia de Cáceres; las migas cacereñas, un plato cuyo ingrediente principal son las migas de pan, sencillo pero muy sabroso; el jamón ibérico criado en las dehesas de Extremadura, realmente exquisito; las flores extremeñas, un dulce con forma de flor perfecto para el postre; el zorongollo, una ensalada de pimientos rojos asados, tomates, ajo y aceite de oliva que no puedes dejar de probar; y muchos platos más.
                     </p>
-                    
                     <p>
                         Cáceres es una de las ciudades Patrimonio de la Humanidad en España. Con el tercer conjunto monumental más grande de Europa, en esta ciudad podrás transportarte a la época del Renacimiento y, sobre todo, a la medieval gracias a sus calles, plazas, palacios y murallas especialmente bien conservados.
                     </p>
@@ -181,7 +182,6 @@
                     <img src="../images/gastronomia_caceres.png" alt="Torta del Casar - Gastronomia de Caceres" loading="lazy">
                 </figure>
             </article>
-
         </section>
     </main>
     <script src="../js/app.js"></script>

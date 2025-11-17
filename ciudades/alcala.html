@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#"  class="menu-activo">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="./alcala.html" class="menu-activo">Alcalá de Henares</a></li>
                     <li><a href="./avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="./ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Ciudades de Patrimonio</h2>
         <section>
-            <h2 class="titulo-nivel2">Alcalá de Henares</h3>
+            <h3 class="titulo-nivel3">Alcalá de Henares</h3>
             <p>
                 En Alcalá de Henares nació el universal autor de “Don Quijote de la Mancha”, Miguel de Cervantes, y de hecho, es posible visitar su Casa Natal convertida en museo.
             </p>
@@ -80,7 +82,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Museo Casa Natal de Cervantes</h3>
+                    <h4 class="titulo-nivel4">Museo Casa Natal de Cervantes</h4>
                     <p>
                         El edificio recrea el ambiente en el que se crio uno de los escritores más importantes de la literatura universal. Está situado en el casco histórico de Alcalá de Henares, declarado Patrimonio Mundial por la UNESCO. 
                     </p>
@@ -95,7 +97,7 @@
 
             <article class="articulo-imagenes-x2">
                 <div>
-                    <h3 class="titulo-nivel3">Universidad de Alcalá de Henares o Colegio Mayor de San Ildefonso</h3>
+                    <h4 class="titulo-nivel4">Universidad de Alcalá de Henares o Colegio Mayor de San Ildefonso</h4>
                     <p>
                         Fue creada por el cardenal Cisneros con el nombre de Colegio de San Ildefonso. La riqueza del renacimiento español en su etapa más pura se refleja en la portada, siendo con Salamanca la cuna del humanismo.
                     </p>
@@ -110,7 +112,6 @@
                     <figure>
                         <img src="../images/Alcala_universidad_2.png" alt="Imagen la Universidad de Alcalá" loading="lazy">
                     </figure>
-
                 </div>
             </article>
         </section>

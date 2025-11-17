@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#"  class="menu-activo">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="./alcala.html">Alcalá de Henares</a></li>
                     <li><a href="./avila.html" class="menu-activo">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="./ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Ciudades de Patrimonio</h2>
         <section>
-            <h2 class="titulo-nivel2">Ávila</h3>
+            <h3 class="titulo-nivel3">Ávila</h3>
             <p>
                 El símbolo inconfundible de Ávila es su muralla. Se ve desde la distancia y convierte a la ciudad en uno de los recintos amurallados mejor conservados de Europa.
             </p>
@@ -80,7 +82,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La muralla y la mística de la ciudad</h3>
+                    <h4 class="titulo-nivel4">La muralla y la mística de la ciudad</h4>
                     <p>
                         La icónica muralla de Ávila es visitable con un recorrido de 1.700 metros. Sus vistas a la Catedral, a la plaza del Mercado Grande o a los alrededores de la ciudad bien merecen subir a ella. Esta catedral es considerada la primera catedral gótica de España y se encuentra adosada a la muralla porque fue proyectada también como fortaleza.
                     </p>
@@ -95,7 +97,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Convento de Santa Teresa</h3>
+                    <h4 class="titulo-nivel4">Convento de Santa Teresa</h4>
                     <p>
                         El convento, inaugurado en 1636, fue edificado sobre la casa natal de Santa Teresa de Jesús, y proyectado por el arquitecto Fray Alonso de San José. En la iglesia destaca la fachada, de estilo barroco, y el interior, de planta de cruz latina, cuyas naves laterales albergan magníficas esculturas del maestro Gregorio Fernández.
                     </p>
@@ -107,7 +109,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Museo del Monasterio de la Encarnación</h3>
+                    <h4 class="titulo-nivel4">Museo del Monasterio de la Encarnación</h4>
                     <p>
                         Este recorrido, a través de las evocaciones de Santa Teresa, se enmarca entre un magnífico conjunto de edificios renacentistas, reformados en el siglo XVIII.
                     </p>

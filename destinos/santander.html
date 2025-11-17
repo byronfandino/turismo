@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#" class="menu-activo">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./caceres.html">Cáceres</a></li>
                     <li><a href="./islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="./santander.html" class="menu-activo">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Destinos Principales</h2>
         <section>
-            <h2 class="titulo-nivel2">Santander</h3>
+            <h3 class="titulo-nivel3">Santander</h3>
             <p>
                 Una ciudad que parece sacada de un cuento y cuya vida gira en torno a su bahía, reconocida como una de las más bonitas del mundo.
             </p>
@@ -81,7 +83,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Museo Marítimo del Cantábrico</h3>
+                    <h4 class="titulo-nivel4">Museo Marítimo del Cantábrico</h4>
                     <p>
                         En la bahía de Santander se alza el Museo Marítimo del Cantábrico, un espacio moderno y muy atractivo, que nace como un homenaje de esta región del norte de España a su mar. 
                     </p>
@@ -96,7 +98,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Centro Botín</h3>
+                    <h4 class="titulo-nivel4">Centro Botín</h4>
                     <p>
                         Espacio cultural dedicado al arte contemporáneo, la música, el cine, el teatro y la literatura. El edificio, diseñado por el arquitecto y premio Pritzker Renzo Piano, está integrado en los Jardines de Pereda y ocupa un lugar privilegiado al borde de la bahía de Santander.
                     </p>
@@ -108,7 +110,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Playa Mataleñas</h3>
+                    <h4 class="titulo-nivel4">Playa Mataleñas</h4>
                     <p>
                         Es una de las más bonitas de toda Cantabria. Desde ella se observa el Cabo de Ajo. Al lado de la playa está el Campo Municipal de Golf con 9 hoyos. Hay un paseo que sale desde esta playa, bordea todo el campo de golf, y llega hasta El Sardinero. 
                     </p>

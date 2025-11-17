@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#" class="menu-activo">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./caceres.html">Cáceres</a></li>
                     <li><a href="./islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="./santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Destinos Principales</h2>
         <section>
-            <h2 class="titulo-nivel2">Bilbao</h3>
+            <h3 class="titulo-nivel3">Bilbao</h3>
             <p>
                 La ciudad del Guggenheim”, también podríamos llamar a este destino del País Vasco, ya que desde que se construyó este original museo en 1997, Bilbao se transformó para siempre. De hecho, ahora impacta por sus estructuras rompedoras creadas por prestigiosos arquitectos y es toda una referencia internacional de modernidad.
             </p>
@@ -73,7 +75,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Pistas gastronómicas para conocer la ciudad</h3>
+                    <h4 class="titulo-nivel4">Pistas gastronómicas para conocer la ciudad</h4>
                     <p>
                         Bilbao brilla también en lo gastronómico y ¡lo sabe! Las siete calles del Casco Viejo y su Plaza Nueva, la calle Licenciado Poza de Indautxu, los Jardines de Albia, en El Ensanche… Muchas son las rutas posibles para “ir de potes”, el equivalente a salir a tomar un aperitivo de mañana, tarde o noche. Aunque existen visitas guiadas que combinan degustación de pintxos y museos.
                     </p>
@@ -85,7 +87,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">El significado cultural del pintxo</h3>
+                    <h4 class="titulo-nivel4">El significado cultural del pintxo</h4>
                     <p>
                         La elaboración de un pintxo es un ejercicio de creatividad tan amplio como las combinaciones de ingredientes conocidas y por conocer, por tanto, infinito. Estos pequeños aperitivos son prácticamente una seña de identidad para los bilbaínos. Ir “descubriendo” sabores de bar en bar es una apetecible aventura culinaria. A diferencia de otras zonas de España, en Euskadi el pintxo no se considera una tapa gratuita y se paga aparte. Así, cada establecimiento busca siempre esa mezcla de productos estrella que logre marcar tendencia en la ciudad o bien fidelizar a los clientes habituales. Imaginación, pasión por la gastronomía y, por supuesto, buena materia prima son fundamentales para alcanzar esa excelencia.
                     </p>
@@ -95,7 +97,7 @@
                 </figure>
             </article>
 
-            <h3 class="titulo-nivel3">Un paseo de contrastes</h3>
+            <h4 class="titulo-nivel4">Un paseo de contrastes</h4>
             <p>
                 La visita a esta ciudad del norte de España puede empezar por el Museo Guggenheim. Es uno de los ejemplos más sorprendentes de la arquitectura del siglo XX, ya que Frank Gehry utilizó 33.000 finísimas planchas de titanio para crear sus curiosas formas curvas. 
             </p>

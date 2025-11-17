@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#" class="menu-activo">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./caceres.html">Cáceres</a></li>
                     <li><a href="./islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="./santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,14 +66,14 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Destinos Principales</h2>
         <section>
-            <h2 class="titulo-nivel2">Zaragoza</h2>
+            <h3 class="titulo-nivel3">Zaragoza</h3>
             <p>
                 Zaragoza es una ciudad con más de 2000 años de historia, conocida por su colosal Basílica del Pilar, su fundación romana, su diversidad cultural y la cercanía de sus gentes.
             </p>
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Un cruce de caminos</h3>
+                    <h4 class="titulo-nivel4">Un cruce de caminos</h4>
                     <p>
                         Zaragoza, capital de Aragón, es la quinta ciudad española en número de habitantes. Situada en un cruce de caminos entre otras grandes ciudades españolas, la capital del Ebro destaca por ser un destino ideal para un city break. Su aeropuerto internacional, su estación de tren de alta velocidad y su red radial de carreteras la sitúan a 2/3 horas de los principales destinos del norte y centro de España, así como del sur de Francia. 
                     </p>
@@ -83,7 +85,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Un destino de sorpresas</h3>
+                    <h4 class="titulo-nivel4">Un destino de sorpresas</h4>
                     <p>
                         Zaragoza es un destino en el que es fácil sentirse a gusto. La cercanía de sus gentes, la accesibilidad de sus espacios y la frescura de sus cielos azules son el mejor marco para una ciudad dotada de un rico patrimonio, caracterizado por su diversidad cultural.Zaragoza cuenta, además, con un casco histórico monumental y peatonal, grandes espacios verdes con carácter singular, kilómetros de carril bici, transporte urbano sostenible, una gran diversidad de plazas, miradores, terrazas, rincones, sorpresas, palacios, museos e iglesias. Y a ello se suma el cálido ambiente social de sus calles, la variedad gastronómica de sus locales, su tapeo y su ocio nocturno.
                     </p>
@@ -95,7 +97,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Y una ciudad monumental</h3>
+                    <h4 class="titulo-nivel4">Y una ciudad monumental</h4>
                     <p>
                         Zaragoza es patrimonio histórico monumental. Entre sus calles aflora la herencia de sus cuatro culturas ancestrales. Su principal atractivo, la Basílica de Nuestra Señora del Pilar, es el símbolo de la ciudad y segunda catedral de Zaragoza. En su interior destacan las hermosas obras de Francisco de Goya y la venerada talla de la Virgen del Pilar. Un imprescindible de la visita a la Basílica es la subida a la torre mirador de San Francisco de Borja.A pocos pasos se encuentra la Catedral del Salvador, templo histórico principal de la ciudad y referente del arte mudéjar aragonés, declarado Patrimonio Histórico de la Humanidad por la UNESCO. En su interior alberga además una de las mejores colecciones de tapices flamencos de los siglos XV-XVII.
                     </p>

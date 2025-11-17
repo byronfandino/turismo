@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#" class="menu-activo">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="./caceres.html">Cáceres</a></li>
                     <li><a href="./islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="./santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="../comunidades/aragon.html">Aragón</a></li>
                     <li><a href="../comunidades/islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Destinos Principales</h2>
         <section>
-            <h2 class="titulo-nivel2">Sevilla</h2>
+            <h3 class="titulo-nivel3">Sevilla</h3>
             <p>
                 Sevilla es una ciudad que deja huella y que muchos coinciden en definir como especial. Puede que sea por la grandiosidad de sus monumentos. Quizá por el encanto de barrios populares como Triana.
             </p>
@@ -75,7 +77,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La Catedral de Sevilla </h3>
+                    <h4 class="titulo-nivel4">La Catedral de Sevilla </h4>
                     <p>
                         es la catedral gótica más grande del mundo. Sin embargo, su planta no tiene la forma de cruz latina propia de este tipo de templos, sino que es cuadrada. La razón es que se construyó sobre la antigua mezquita mayor de la ciudad, adaptándose a la estructura que existía. 
                     </p>
@@ -93,7 +95,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La Giralda y sus “réplicas”</h3>
+                    <h4 class="titulo-nivel4">La Giralda y sus “réplicas”</h4>
                     <p>
                         ¿Sabías que la Giralda no tiene escaleras, sino rampas? Son 35 rampas lo suficientemente anchas para que el sultán pudiera subir montado a caballo por ellas para disfrutar de las vistas. 
                     </p>
@@ -108,7 +110,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La Vidriera de Carlos V</h3>
+                    <h4 class="titulo-nivel4">La Vidriera de Carlos V</h4>
                     <p>
                         La catedral sevillana cuenta con un patrimonio artístico muy valioso. De hecho, se considera una de las mejores pinacotecas españolas, donde no faltan obras de maestros como Murillo, Velázquez, Goya o Zurbarán.  
                     </p>
@@ -126,7 +128,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">¡¡Un cocodrilo en la catedral!!</h3>
+                    <h4 class="titulo-nivel4">¡¡Un cocodrilo en la catedral!!</h4>
                     <p>
                         Tranquilo, que no muerde. Lo verás colgando del techo, junto a un colmillo de elefante y una brida, si entras desde el Patio de los Naranjos por la Puerta del Lagarto. 
                     </p>
@@ -144,7 +146,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La catedral “respira”</h3>
+                    <h4 class="titulo-nivel4">La catedral “respira”</h4>
                     <p>
                         Todos los días, las bóvedas del edificio se dilatan varios centímetros a causa de los cambios de temperatura. 
                     </p>

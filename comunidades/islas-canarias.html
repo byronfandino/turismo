@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="menu-activo">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="./aragon.html">Aragón</a></li>
                     <li><a href="./islas-canarias.html" class="menu-activo">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Comunidades Autónomas</h2>
         <section>
-            <h2 class="titulo-nivel2">Islas canarias</h3>
+            <h3 class="titulo-nivel3">Islas canarias</h3>
             <p>
                 Muchos las conocen como el sol de Europa y destacan por sus suaves temperaturas y su entorno natural. De hecho, cinco de sus islas están declaradas Reserva de la Biosfera y el archipiélago cuenta con cuatro Parques Nacionales.
             </p>
@@ -80,7 +82,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">La Graciosa (Isla)</h3>
+                    <h4 class="titulo-nivel4">La Graciosa (Isla)</h4>
                     <p>
                         La octava isla canaria es un pequeño paraíso de ensueño para quienes desean tranquilidad, silencio y disfrutar de una naturaleza virgen. Con playas de arena blanca y aguas turquesa, sin asfalto ni contaminación, es un tesoro para descubrir en el que viven poco más de 700 habitantes.
                     </p>
@@ -95,7 +97,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Tenerife (Isla)</h3>
+                    <h4 class="titulo-nivel4">Tenerife (Isla)</h4>
                     <p>
                         La tranquilidad de pasear todos los días en manga corta sin notar frío. El placer de caminar con el mar siempre en el horizonte. La sensación de hundir la planta del pie en la arena. El frescor momentáneo de sentir el agua del Atlántico en un baño en la playa. La alegría de tener al sol como compañero de viaje.
                     </p>
@@ -110,7 +112,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Lanzarote (Isla)</h3>
+                    <h4 class="titulo-nivel4">Lanzarote (Isla)</h4>
                     <p>
                         Una de las islas más fascinantes del archipiélago canario es, sin duda, Lanzarote. Nada más poner un pie en su territorio, llaman la atención los colores inconfundibles de sus paisajes volcánicos que contrastan con el azul del Atlántico.
                     </p>

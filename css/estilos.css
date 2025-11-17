@@ -118,6 +118,8 @@ a{
 }
 
 .btn-abrir-menu{
+    background-color: transparent;
+    border-width: 0px;
     font-size: 1.8rem;
     padding: 0rem 1rem;
     color: var(--negro);
@@ -220,14 +222,21 @@ a{
     justify-content: flex-end;
 }
 
-.menu > ul:first-child > li > a.btn-cerrar-menu{
-    flex:0; 
+.contenedor-btn-cerrar-menu{
+    text-align: right;
+}
+
+.btn-cerrar-menu{
+    border-width: 0;
+    background-color: transparent;
     margin-right: 1rem;
+    color: var(--blanco);
+    padding: 0.7rem;
 }
 
 /*Resolución de desktop*/
 @media (min-width:1200px){
-    .menu .btn-cerrar-menu{
+    .btn-cerrar-menu{
         display: none;
     }
 }
@@ -278,12 +287,12 @@ a{
 }
 
 /*Resolución de desktop*/
-@media (min-width:1200px){
+/* @media (min-width:1200px){
     .menu > ul > li:hover .submenu{
         max-height: 50rem;
         opacity: 1;
     }   
-}
+} */
 
 /* Fin de la configuración del menú de navegación */
 
@@ -510,6 +519,10 @@ a{
 }
 .main-destinos .titulo-nivel2,
 .main-destinos .titulo-nivel3{
+    margin: 1rem 0;
+}
+
+.titulo-nivel4{
     margin: 1rem 0;
 }
 

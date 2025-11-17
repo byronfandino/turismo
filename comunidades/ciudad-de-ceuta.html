@@ -15,16 +15,18 @@
         </figure>
 
         <h1 class="titulo-nivel1">Viajes turísticos en España</h1>        
-        <a href="#" class="btn-abrir-menu" id="btn-abrir-menu">&#9776</a>
+        <button class="btn-abrir-menu" id="btn-abrir-menu" aria-label="Abrir menú">☰</button>
     </header>
 
     <nav id="menu" class="menu">
-        <ul><li><a href="#" id="btn-cerrar-menu" class="btn-cerrar-menu">X</a></li></ul>
+        <div class="contenedor-btn-cerrar-menu">
+            <button class="btn-cerrar-menu" id="btn-cerrar-menu" aria-label="Cerrar menú">X</button>
+        </div>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="../historia.html">Historia</a></li>
             <li><a href="../mapa.html">Mapa</a></li>
-            <li><a href="#">Destinos principales ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Destinos principales ▾</a>
                 <ul class="submenu">
                     <li><a href="../destinos/caceres.html">Cáceres</a></li>
                     <li><a href="../destinos/islas-baleares.html">Islas Baleares</a></li>
@@ -37,7 +39,7 @@
                     <li><a href="../destinos/santander.html">Santander</a></li>
                 </ul>
             </li>
-            <li><a href="#">Ciudades patrimonio ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Ciudades patrimonio ▾</a>
                 <ul class="submenu">
                     <li><a href="../ciudades/alcala.html">Alcalá de Henares</a></li>
                     <li><a href="../ciudades/avila.html">Ávila</a></li>
@@ -47,7 +49,7 @@
                     <li><a href="../ciudades/ubeda.html">Úbeda</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="menu-activo">Comunidades autónomas ▾</a>
+            <li><a href="#" aria-haspopup="true" aria-expanded="false">Comunidades autónomas ▾</a>
                 <ul class="submenu">
                     <li><a href="./aragon.html">Aragón</a></li>
                     <li><a href="./islas-canarias.html">Islas Canarias</a></li>
@@ -64,7 +66,7 @@
     <main class="main-destinos">
         <h2 class="titulo-nivel2">Comunidades Autónomas</h2>
         <section>
-            <h2 class="titulo-nivel2">Ciudad de Ceuta</h3>
+            <h3 class="titulo-nivel3">Ciudad de Ceuta</h3>
             <p>
                 Una ciudad abierta que une dos continentes y en la que se mezclan cuatro culturas distintas: la cristiana, la musulmana, la hindú y la judía.
             </p>
@@ -79,7 +81,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Murallas Reales</h3>
+                    <h4 class="titulo-nivel4">Murallas Reales</h4>
                     <p>
                         Se trata de una fortificación abalaustrada compuesta por varias líneas defensivas, fosos, espigones y galerías. Fueron levantadas en época medieval, dado el carácter que tiene Ceuta de ciudad-frontera.
                     </p>
@@ -94,7 +96,7 @@
 
             <article>
                 <div>
-                    <h3 class="titulo-nivel3">Parque Marítimo del Mediterráneo</h3>
+                    <h4 class="titulo-nivel4">Parque Marítimo del Mediterráneo</h4>
                     <p>
                         El Parque Marítimo del Mediterráneo es la obra póstuma de César Manrique. Se comenzó en 1992 finalizándose dos años más tarde. Tiene características similares a las del lago Martiánez del Puerto de la Cruz. 
                     </p>
