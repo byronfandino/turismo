@@ -55,6 +55,11 @@
                 "parrafo1":"If you're a food lover, here are some typical dishes you should try: Torta del Casar, a creamy cheese produced in the province of Cáceres; migas cacereñas, a simple yet delicious dish whose main ingredient is breadcrumbs; Iberian ham raised in the pastures of Extremadura, truly exquisite; flores extremeñas, a flower-shaped sweet perfect for dessert; zorongollo, a salad of roasted red peppers, tomatoes, garlic, and olive oil that you absolutely must try; and many more dishes.",
                 "parrafo2":"Cáceres is one of Spain's World Heritage Cities. With the third largest collection of monuments in Europe, this city transports you back to the Renaissance and, above all, the Middle Ages, thanks to its exceptionally well-preserved streets, squares, palaces, and walls."
             }
+        },
+        "islas_baleares":{
+            "titulo":"Balearic Islands",
+            "parrafo1":"It's one of the most popular destinations in the western Mediterranean, and the reasons are clear. You'll find idyllic coves, stunning sunsets, and breathtaking natural beauty. You can enjoy the islands however you like: with all the tranquility you seek or experiencing the wildest nights imaginable.",
+            "parrafo2":"Little slices of paradise to dream about. Some of the most beautiful landscapes are found on the beaches and coves of the Balearic Islands. There's something for everyone. Small, secluded, and almost untouched, ideal for disconnecting, like those in Menorca or Cabrera. Or larger and busier, with all the amenities you need to spend from morning till night, which you'll also find in Mallorca, Ibiza, and Formentera. They all share the turquoise blue of their warm, calm waters and the softness of their white sands."
         }
     }
 }

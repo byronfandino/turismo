@@ -55,6 +55,11 @@
                 "parrafo1":"Si eres un amante de la gastronomía, estos son algunos de los platos típicos que deberías probar: la Torta del Casar, un queso cremoso producido en la provincia de Cáceres; las migas cacereñas, un plato cuyo ingrediente principal son las migas de pan, sencillo pero muy sabroso; el jamón ibérico criado en las dehesas de Extremadura, realmente exquisito; las flores extremeñas, un dulce con forma de flor perfecto para el postre; el zorongollo, una ensalada de pimientos rojos asados, tomates, ajo y aceite de oliva que no puedes dejar de probar; y muchos platos más.",
                 "parrafo2":"Cáceres es una de las ciudades Patrimonio de la Humanidad en España. Con el tercer conjunto monumental más grande de Europa, en esta ciudad podrás transportarte a la época del Renacimiento y, sobre todo, a la medieval gracias a sus calles, plazas, palacios y murallas especialmente bien conservados."
             }
+        },
+        "islas_baleares":{
+            "titulo":"Islas Baleares",
+            "parrafo1":"Es de los destinos más elegidos del Mediterráneo occidental y los motivos están claros. Encontrarás calas de ensueño, hermosas puestas de sol y una naturaleza desbordante. Puedes disfrutar de las islas como lo desees: con toda la tranquilidad que buscas o viviendo las noches más locas que puedas imaginar.",
+            "parrafo2":"Trocitos de paraíso para soñar. Algunos de los paisajes más bellos se encuentran en las playas y calas de las islas Baleares. Las hay para todos los gustos.  Pequeñas, discretas y casi vírgenes, ideales para desconectar, como las de Menorca o Cabrera. O más amplias y concurridas, con todos los servicios a tu disposición para pasar desde la mañana a la noche, que disfrutarás también en Mallorca, Ibiza y Formentera. Todas ellas comparten el azul turquesa de sus cálidas y tranquilas aguas, y la suavidad de sus blancos arenales."
         }
     }
 }  
