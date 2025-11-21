@@ -1,0 +1,17 @@
+{
+    "comun":{
+        "titulo":"Viajes turísticos en España",
+        "menu":{
+            "inicio":"Inicio",
+            "historia":"Historia",
+            "mapa": "Mapa",
+            "destinos":"Destinos Principales ▾",
+            "ciudades":"Ciudades Patrimonio ▾",
+            "comunidades":"Comunidades Autónomas ▾"
+        },
+        "footer":{
+            "contacto":"Contacto"
+        }
+
+    }
+}

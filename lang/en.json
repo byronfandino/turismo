@@ -1,0 +1,16 @@
+{
+    "comun":{
+        "titulo":"Tourist Trips in Spain",
+        "menu":{
+            "inicio":"Home",
+            "historia":"History",
+            "mapa": "Map",
+            "destinos":"Main Destinations ▾",
+            "ciudades":"Heritage Cities ▾",
+            "comunidades":"Autonomous Communities ▾"
+        },
+        "footer":{
+            "contacto":"Contact"
+        }
+    }
+}
