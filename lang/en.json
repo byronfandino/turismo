@@ -1,6 +1,9 @@
 {
     "comun":{
         "titulo":"Tourist Trips in Spain",
+        "destinos":"Main Destinations",
+        "ciudades":"Heritage Cities",
+        "comunidades":"Autonomous Communities",
         "menu":{
             "inicio":"Home",
             "historia":"History",
@@ -11,6 +14,47 @@
         },
         "footer":{
             "contacto":"Contact"
+        }
+    },
+    "historia":{
+        "titulo":"History",
+        "parrafo1":"Throughout history, the territory that is now Spain has been coveted by some of the world's greatest empires: Carthaginians and Romans fought for it, the Arabs conquered it, and later, Christian kings began what would become the world's largest empire with the discovery of America. In fact, during the reign of Philip II, there was hardly a moment of the day when the sun didn't shine on some Castilian territory: from the Philippines to America, uniting the territories of Spain, Portugal, Flanders, Italy, and parts of present-day Germany."
+    },
+    "destinos":{
+        "caceres":{
+            "parrafo1":"This city in Extremadura, known as 'the Town of a Thousand and One Coats of Arms,' ​​is always worth a visit. We recommend entering the city through its traditional gateway: the Arco de la Estrella (Star Arch), dating from the 18th century and wide enough to allow carriages to pass through. From here, the spacious Plaza Mayor will unfold before you, always bustling with life, surrounded by arcades and perfect for enjoying a drink or a bite to eat.",
+            "parrafo2":"Some places you can visit",
+            "plaza_mayor":{
+                "parrafo1":"This is undoubtedly a must-see in the city. It is surrounded by 16th-century arcades and, within it, you will find:",
+                "li1":"The Town Hall, a beautiful 19th-century building.",
+                "li2":"The Bujaco Tower is the most important tower in the city, a 25-meter-high structure of Moorish origin. Inside, you can visit the Interpretation Center of the Three Cultures. And don't leave without climbing to the top of the tower.",
+                "li3":"The Pulpit Tower, of Christian origin and 16 meters high, is attached to the outer part of the city wall. It can be visited by entering through the Bujaco Tower.",
+                "li4":"The Yerba Tower, a structure of Moorish origin, specifically one of the last to be built while Cáceres was under Muslim rule.",
+                "li5":"The Hermitage of Peace, built on the remains of a 16th-century Renaissance chapel.",
+                "li6":"The Star Arch, the main entrance to the walled city of Cáceres. Although it was opened in the 15th century, its current form is the work of Manuel de Lara Churriguera and was completed in 1726."
+            },
+            "plaza_maria":{
+                "parrafo1":"This square is another of the city's most important. It was used for a long time as a market and even as a venue for noble weddings. Here you will see:",
+                "li1":"The Co-Cathedral of Cáceres, a church dating back to the 13th century, which, after its destruction, was rebuilt as it is today during the 15th and 16th centuries. Don't miss its Gothic interior and the views from its bell tower, which offers a 360º panorama.",
+                "li2":"The Episcopal Palace. Its oldest part dates from the 13th century, and its last modification from the 17th century.",
+                "li3":"The Renaissance-style Palace of Hernando de Ovando. Built in the 15th century and renovated in the 18th."
+            },
+            "plaza_jorge":{
+                "parrafo1":"In this beautiful square, you'll be captivated by the Church of San Francisco Javier, a Baroque-style Jesuit church built in the 18th century.",
+                "parrafo2":"t's one of those spots that makes Cáceres one of Spain's most charming cities. You can visit the interior of the church and even climb to the viewpoint.",
+                "parrafo3":"On the steps leading up from the square to the church, you'll find a bronze sculpture of Saint George slaying the dragon, a representation of a legend that says that after the dragon's death in that battle, the city was able to convert to Christianity."
+            },
+            "muralla":{
+                "titulo":"The City Walls",
+                "parrafo1":"Without a doubt, they are one of Cáceres's main monuments. They are of Roman origin and were later rebuilt by the Almohads in the 12th century.",
+                "parrafo2":"Although originally built for defensive purposes, today they enclose the old part of the city.",
+                "parrafo3":"They are almost entirely preserved and incorporate, among other structures, the Pulpit Tower and the Bujaco Tower. From the latter, you can access a small section of the wall and walk along it."
+            },
+            "gastronomia":{
+                "titulo":"Gastronomy",
+                "parrafo1":"If you're a food lover, here are some typical dishes you should try: Torta del Casar, a creamy cheese produced in the province of Cáceres; migas cacereñas, a simple yet delicious dish whose main ingredient is breadcrumbs; Iberian ham raised in the pastures of Extremadura, truly exquisite; flores extremeñas, a flower-shaped sweet perfect for dessert; zorongollo, a salad of roasted red peppers, tomatoes, garlic, and olive oil that you absolutely must try; and many more dishes.",
+                "parrafo2":"Cáceres is one of Spain's World Heritage Cities. With the third largest collection of monuments in Europe, this city transports you back to the Renaissance and, above all, the Middle Ages, thanks to its exceptionally well-preserved streets, squares, palaces, and walls."
+            }
         }
     }
 }

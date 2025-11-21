@@ -1,6 +1,9 @@
 {
     "comun":{
         "titulo":"Viajes turísticos en España",
+        "destinos":"Destinos Principales",
+        "ciudades":"Ciudades Patrimonio",
+        "comunidades":"Comunidades Autónomas",
         "menu":{
             "inicio":"Inicio",
             "historia":"Historia",
@@ -12,6 +15,47 @@
         "footer":{
             "contacto":"Contacto"
         }
-
+    },
+    "historia":{
+        "titulo":"Historia",
+        "parrafo1":"A lo largo de los años, el territorio que ocupa España ha sido el objetivo de los imperios más importantes: cartagineses y romanos lucharon por ella, los árabes la conquistaron y, después, los reyes cristianos comenzaron lo que llegó a ser el imperio más grande del mundo con el descubrimiento de América. De hecho, con el rey Felipe II no había momento en el día en el que el sol no cubriera algún territorio castellano: desde Filipinas hasta América, uniendo los territorios de España, Portugal, Flandes, Italia y algunas zonas de la actual Alemania."
+    },
+    "destinos":{
+        "caceres":{
+            "parrafo1":"Esta ciudad de Extremadura conocida como “la Villa de los mil y un escudos” siempre merece un viaje.  Te recomendamos acceder a la ciudad por su entrada tradicional: el Arco de la Estrella, del siglo XVIII y con un ancho pensado para que pasaran los carruajes. A partir de aquí, se presentará ante ti la amplia Plaza Mayor, siempre llena de vida, rodeada de soportales y perfecta para tomar algo.",
+            "parrafo2":"Lugares que puedes visitar",
+            "plaza_mayor":{
+                "parrafo1":"Es sin duda, un imprescindible de la ciudad. Esta rodeada por soportales del siglo XVI y, en ella, encontrarás:",
+                "li1":"El Ayuntamiento, un bonito edificio del siglo XIX.",
+                "li2":"La Torre de Bujaco es la más importante de la ciudad, una construcción de 25 metros de altura y origen árabe. En su interior podrás visitar el Centro de Interpretación de las Tres Culturas. Además, no te puedes ir sin subir a lo alto de la torre.",
+                "li3":"La Torre de los Púlpitos, de origen cristiano y 16 metros de altura, está adosada a la parte externa de la muralla. Se puede visitar entrando a través de la torre de Bujaco.",
+                "li4":"La Torre de Yerba, una construcción de origen árabe, en concreto de las últimas en construirse mientras Cáceres estuvo en poder musulmán.",
+                "li5":"La Ermita de la Paz, se construyó sobre los restos de una capilla renacentista del siglo XVI.",
+                "li6":"El Arco de la Estrella, es la principal puerta de entrada al recinto amurallado de Cáceres. Aunque se abrió en el siglo XV, su forma actual es obra de Manuel de Lara Churriguera y se realizó en 1726."
+            },
+            "plaza_maria":{
+                "parrafo1":"Esta plaza es otra de las más importantes de la ciudad. Se utilizó durante mucho tiempo como mercado e incluso como lugar de celebración de bodas de la nobleza. En ella verás:",
+                "li1":"La Concatedral de Cáceres, una iglesia que se remonta al siglo XIII pero que, tras su destrucción, se reconstruyó como es ahora durante los siglos XV y XVI. No te puedes perder su interior de estilo gótico y las vistas desde su torre campanario, desde donde observarás una panorámica de 360º.",
+                "li2":"El Palacio Episcopal. Su parte más antigua data del siglo XIII y su última modificación del siglo XVII.",
+                "li3":"El Palacio de Hernando de Ovando, de estilo renacentista. Construido en el siglo XV y reformado en el XVIII."
+            },
+            "plaza_jorge":{
+                "parrafo1":"En esta plaza de gran belleza te sorprenderá la Iglesia de San Francisco Javier, una iglesia jesuita de estilo barroco construida en el siglo XVIII.",
+                "parrafo2":"Es uno de esos rincones que convierten a Cáceres en una de las ciudades con encanto de España. El interior de la iglesia se puede visitar y, además, podrás subir al mirador.",
+                "parrafo3":"En las escaleras que suben desde la plaza hasta el interior de la iglesia se encuentra una escultura de bronce de San Jorge matando al dragón, la representación de una leyenda que dice que tras la muerte del animal en ese duelo, la ciudad se pudo convertir al cristianismo."
+            },
+            "muralla":{
+                "titulo":"La Muralla",
+                "parrafo1":"Sin duda, es uno de los principales monumentos de Cáceres. Es de origen romano y más tarde, en el siglo XII, fue reconstruida por los almohades.",
+                "parrafo2":"Aunque originalmente se creó con una función defensiva, hoy envuelve la parte antigua de la ciudad.",
+                "parrafo3":"Se conserva casi en su totalidad y en ella están integradas, entre otras, la Torre de los Púlpitos y la Torre de Bujaco. Desde esta última, podrás acceder a un pequeño tramo de la muralla y caminar sobre ella."
+            },
+            "gastronomia":{
+                "titulo":"Gastronomía",
+                "parrafo1":"Si eres un amante de la gastronomía, estos son algunos de los platos típicos que deberías probar: la Torta del Casar, un queso cremoso producido en la provincia de Cáceres; las migas cacereñas, un plato cuyo ingrediente principal son las migas de pan, sencillo pero muy sabroso; el jamón ibérico criado en las dehesas de Extremadura, realmente exquisito; las flores extremeñas, un dulce con forma de flor perfecto para el postre; el zorongollo, una ensalada de pimientos rojos asados, tomates, ajo y aceite de oliva que no puedes dejar de probar; y muchos platos más.",
+                "parrafo2":"Cáceres es una de las ciudades Patrimonio de la Humanidad en España. Con el tercer conjunto monumental más grande de Europa, en esta ciudad podrás transportarte a la época del Renacimiento y, sobre todo, a la medieval gracias a sus calles, plazas, palacios y murallas especialmente bien conservados."
+            }
+        }
     }
-}
+}  
+
