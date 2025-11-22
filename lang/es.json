@@ -257,8 +257,67 @@
                 "titulo":"Templo Romano",
                 "parrafo":"Los restos de este templo están situados junto al Ayuntamiento. Por los vestigios que se observan, parece que fue de grandes dimensiones. Estaba dedicado a los dioses mitológicos. Está situado en el centro de una gran plaza porticada. Elevado sobre un podio de gran altura sobre el que se apoyaban columnas corintias. Se construyó bajo la etapa del emperador Claudio (dinastía Julio-Claudia), aunque se culmina con Domiciano (dinastía Flavia)."
             }
+        },
+        "cuenca":{
+            "titulo":"Cuenca",
+            "parrafo1":"Merece la pena subir las cuestas y callejuelas que se adentran en esta ciudad -situada entre las hoces de los ríos Júcar y Huécar- para dejarse sorprender por sus miradores. Entre las paradas imprescindibles está la Plaza Mayor, donde verás los arcos del Ayuntamiento y la bonita Catedral que se comenzó a construir a finales del siglo XII.",
+            "parrafo2":"Por detrás del templo, una calle lleva a las Casas Colgadas, el gran símbolo de Cuenca. Se conservan tres visitables: la Casa de la Sirena  y las Casas del Rey, donde puedes conocer el Museo de Arte Abstracto Español, con obras de artistas tan famosos como Tápies, Chillida o Saura.",
+            "parrafo3":"Cuenca también te va a sorprender por curiosidades como los “rascacielos” del barrio de San Martín o el túnel visitable de la calle Alfonso VIII. Los aficionados a los museos tienen otras opciones: la Fundación Antonio Saura, la Fundación Antonio Pérez, el Museo de las Ciencias… Y si quieres investigar en las tradiciones, también está el Museo de la Semana Santa, dedicado a la fiesta más famosa de la ciudad.",
+            "catedral":{
+                "titulo":"Catedral de Nuestra Señora de Gracia",
+                "parrafo1":"La catedral es de estilo gótico con claras influencias francesas. El exterior ha perdido su carácter gótico debido a las innovaciones introducidas durante el Renacimiento.",
+                "parrafo2":"Es de planta de cruz latina y tiene un ábside poligonal de siete lados. El triforio es un resto de la estructura normanda original. Es único en España y además, la decoración sirve para contrarrestar el empuje de las bóvedas. ",
+                "parrafo3":"La fachada principal tiene tres puertas de acceso. El altar mayor es de Ventura Rodríguez y además posee unas magníficas rejas del siglo XVI. Las puertas de las salas capitulares son obra de Berruguete. "
+            },
+            "torre":{
+                "titulo":"Torre Mangana",
+                "parrafo1":"Se trata de uno de los monumentos más significativos de la ciudad. Está situada en el solar de un antiguo alcázar árabe.",
+                "parrafo2":"El acceso a la torre de 28 metros de altura por una puerta, situada en una de sus caras, algo elevada del suelo de la plaza. Sobre ella se aprecian cuatro ventanas alargadas y estrechas, llamadas saeteras y en la parte superior una más ancha enmarcada en sillería.",
+                "parrafo3":"En la actualidad, este monumento marca la hora de la ciudad para los vecinos del casco Antiguo y es al mismo tiempo un mirador desde done podemos alcanzar a ver toda la ciudad de Cuenca."
+            }
+        },
+        "toledo":{
+            "titulo":"Toledo",
+            "parrafo1":"Cristianos, musulmanes y judíos. Seguidores de las tres religiones han convivido durante siglos y dejado huella en Toledo, una de las más interesantes y sorprendentes ciudades de España en la que es posible ver, en cuestión de pocos metros, una catedral gótica, una mezquita del siglo X y dos sinagogas. ",
+            "parrafo2":"Un lugar que llegó a ser Ciudad Imperial y cuya belleza supo reflejar El Greco en sus pinturas. Una ciudad de la que el viajero no se puede ir sin asomarse a sus miradores, subir a su Alcázar, perderse por sus callejuelas o ver un atardecer desde los Puentes de Alcántara o San Martín. A menos de 80 kilómetros de Madrid, merece la pena dedicarle más de una jornada para ver la ciudad iluminada por la noche y conocerla en profundidad.",
+            "catedral":{
+                "titulo":"Catedral de Toledo",
+                "parrafo1":"El templo tiene orígenes remotos aunque como iglesia cristiana comenzó a construirse en el siglo XIII.",
+                "parrafo2":"El templo se erigió sobre una mezquita musulmana que, anteriormente, fue una iglesia de los tiempos de Recaredo, en el siglo VI. El rey San Fernando y el arzobispo pusieron la primera piedra en el año 1226. Posteriormente, fueron terminándose las quince capillas de la girola. ",
+                "parrafo3":"Hacia el año 1300 se termina la nave del crucero, aunque las obras prosiguieron durante los dos siglos siguientes."
+            },
+            "museo":{
+                "titulo":"Museo del Greco",
+                "parrafo1":"Este espacio acoge una amplia colección de lienzos de este artista del Siglo de Oro.",
+                "parrafo2":"Inaugurado en 1910, el museo está situado en el barrio de la Judería de Toledo. El recinto consta de dos edificios: una casa con patio del siglo XVI, y una ampliación de principios del siglo XX, que coinciden en un jardín. En su interior se exponen numerosas obras de El Greco, sobre todo de la última época de este genio de la pintura, además de lienzos de otros pintores españoles de los siglox XVI y XVII, muebles de la misma época y cerámica de Talavera de la Reina."
+            },
+            "iglesia":{
+                "titulo":"Iglesia de Santo Tomé",
+                "parrafo1":"Iglesia con torre mudéjar del siglo XIV. Guarda el famoso cuadro de El Greco 'El entierro del Conde Orgaz'.",
+                "parrafo2":"La iglesia data del siglo XII, aunque fue reconstruida en su totalidad a principios del siglo XIV por encargo del Señor de Orgaz. La torre es uno de los mejores ejemplos del arte mudéjar toledano. En sus dos cuerpos superiores, de ladrillo, se abren grupos de dos y tres ventanales de arcos túmidos festoneados por otros lobulados. ",
+                "parrafo3":"En el interior se guarda uno de los cuadros más famosos de El Greco, 'El entierro del Conde Orgaz', que se expone en una sala especial."
+            }
+        },
+        "ubeda":{
+            "titulo":"Úbeda",
+            "parrafo1":"Los bellos edificios renacentistas son el reclamo principal de esta Ciudad Patrimonio de la Humanidad que, junto a su vecina Baeza, es uno de los mejores lugares de Europa para hacerse una idea de cómo fue el arte durante el Renacimiento.",
+            "parrafo2":"Buena opción, por tanto, para hacer turismo de interior por Andalucía. Además de pasear contemplando iglesias, palacios y casas nobiliarias, relaja mucho verse rodeado por su paisaje de olivos. Sus restaurantes y bares de tapas y la posibilidad de degustar el famoso aceite de oliva de la zona hacen el resto.",
+            "capilla":{
+                "titulo":"Capilla de El Salvador",
+                "parrafo1":"Se encuentra en un enclave inigualable de Úbeda, junto a varios palacios que rodean la interesante Plaza de Vázquez de Molina.",
+                "parrafo2":"Su trazado fue diseñado por Diego de Siloé. Sobresale de esta Sacra Capilla, la portada plateresca, obra de Vandelvira. En el interior se encuentra el retablo mayor, realizado por Berruguete, y la rejería, del Maestro Bartolomé."
+            },
+            "plaza":{
+                "titulo":"Plaza de Vázquez de Molina",
+                "parrafo1":"Se mire donde se mire, cualquier parte de la Plaza de Vázquez de Molina es una obra de arte.",
+                "parrafo2":"En esta plaza se ubican algunos de los edificios más significativos de esta bella ciudad, entre ellos el Ayuntamiento o Palacio de las Cadenas, el Parador de Turismo en el Palacio del Deán Ortega, el Palacio del Marqués de Mancera, la Sacra Capilla de El Salvador, la Basílica de Santa María de los Reales Alcázares y el antiguo Pósito. En la plaza también encontramos el monumento a Andrés de Vandelvira y una fuente renacentista."
+            },
+            "museo":{
+                "titulo":"Museo Arqueológico de Úbeda",
+                "parrafo1":"Situado en una casa mudéjar del siglo XIV, el museo lleva en funcionamiento desde 1973.",
+                "parrafo2":"Recoge los hallazgos de la época íbera y romana encontrados en los yacimientos de Úbeda. Entre otras piezas, se pueden ver leones, lápidas romanas o grandes molinos ibéricos. En la Sala Ibérica destacan los exvotos de cerámica de Castellar de Santisteban.",
+                "parrafo3":"Su sede se encuentra en una casa mudéjar descubierta durante unas obras en 1964 que se acondicionó para museo, siendo inaugurado 18 de enero de 1973. La casa, organizada en torno a un patio central, es ejemplo de arquitectura doméstica mudéjar, de entre los siglos XIV y XV."
+            }
         }
-
     }
-}  
-
+}
