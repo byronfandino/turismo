@@ -59,32 +59,36 @@ function cerrarTodosSubMenus(){
 }
 
 function traduccion(lang = 'es') {
-    fetch(`/lang/${lang}.json`)
-        .then(res => {
 
+    // Calcula ruta relativa automáticamente
+    const currentPath = window.location.pathname;
+    const depth = currentPath.split('/').length - 2;
+    const prefix = "../".repeat(depth);
+
+    const jsonPath = `${prefix}lang/${lang}.json`;
+
+    fetch(jsonPath)
+        .then(res => {
             if (!res.ok) {
-                throw new Error(`Error HTTP: ${res.status}`);
+                throw new Error(`Error cargando JSON: ${jsonPath}`);
             }
             return res.json();
         })
         .then(lang_json => {
+
             const elementos = document.querySelectorAll('[data-lang]');
-            
+
             elementos.forEach(etiqueta => {
                 const key = etiqueta.getAttribute('data-lang');
                 const partes = key.split('.');
-                
+
                 let valor = lang_json;
 
                 for (let parte of partes) {
-                    valor = valor[parte];
+                    valor = valor?.[parte];
                 }
 
-                if(valor !== undefined){
-                    etiqueta.textContent = valor;
-                }else{
-                    etiqueta.textContent = `[Sin traducción: ${key}]`;
-                }
+                etiqueta.textContent = valor ?? `[Sin traducción: ${key}]`;
             });
         })
         .catch(error => {
