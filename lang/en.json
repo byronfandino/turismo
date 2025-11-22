@@ -131,6 +131,91 @@
                 "titulo":"And a Monumental City",
                 "parrafo":"Zaragoza is a city steeped in historical and monumental heritage. The legacy of its four ancient cultures is evident in its streets. Its main attraction, the Basilica of Our Lady of the Pillar, is the symbol of the city and Zaragoza's second cathedral. Inside, the beautiful works of Francisco de Goya and the venerated statue of Our Lady of the Pillar are highlights. A must-do when visiting the Basilica is climbing the San Francisco de Borja lookout tower. Just a short walk away is the Cathedral of the Savior, the city's main historical church and a prime example of Aragonese Mudéjar art, declared a World Heritage Site by UNESCO. It also houses one of the finest collections of Flemish tapestries from the 15th to 17th centuries."
             }
+        },
+        "malaga":{
+            "titulo":"Málaga",
+            "parrafo":"Beyond its 16 sunny beaches, this Andalusian city on the Mediterranean coast boasts a vibrant cultural scene. The birthplace of the genius Pablo Picasso has reinvented itself in recent years, opening museums to suit all tastes.",
+            "viaje":{
+                "titulo":"A Journey Through Time",
+                "parrafo1":"Málaga is a city brimming with historical landmarks, such as the Alcazaba, one of the largest Moorish fortresses in Andalusia, and Gibralfaro Castle, which offers what are surely the best views of the entire city.",
+                "parrafo2":"At the foot of the castle lies the Roman theater and a historic center perfect for strolling. Along its streets, you'll discover hidden gems like the Mercado de las Atarazanas, ideal for enjoying a vermouth, and monuments like its Cathedral, known as 'La Manquita' (the one-armed lady) for its unfinished right tower.",
+                "parrafo3":"A visit to its rooftops is a must; the experience is truly unique. We are in Picasso's city, so in the center there is also a highly recommended museum dedicated to the painter and it is possible to visit his birthplace."
+            },
+            "museo":{
+                "titulo":"Picasso Museum Málaga",
+                "parrafo":"The Picasso Museum Málaga is located in the Buenavista Palace, a prime example of Renaissance civil architecture in Andalusia. The permanent exhibition comprises a selection of pieces from the private collection of two of Picasso's relatives, Christine Ruiz-Picasso and Bernard Ruiz-Picasso. The more than 200 works in the collection encompass the diverse styles, materials, and techniques developed by the brilliant painter. The museum also hosts temporary exhibitions and educational and cultural activities related to Picasso."
+            }
+        },
+        "salamanca":{
+            "titulo":"Salamanca",
+            "parrafo":"To speak of culture is to speak of Salamanca. Walking through the streets of its historic center, a UNESCO World Heritage Site, means traversing centuries of history, art, and knowledge, and being captivated by wonders such as its renowned University, one of the oldest in Europe, which continues to attract thousands of students today.",
+            "plaza_mayor":{
+                "titulo":"Plaza Mayor of Salamanca",
+                "parrafo":"It is one of the most beautiful squares in Spain. It was built in the Baroque style following the design of Alberto Churriguera. On the north side stands the City Hall, also Baroque, with five granite arches and a bell gable flanked by four allegorical figures. Its decoration features medallions, including those of Charles I, Alfonso XI, Ferdinand VI, Cervantes, and Saint Teresa. The building facades are arranged in three stories, supported by semicircular arches and topped by a balustrade. It is currently one of the liveliest and busiest places in Salamanca."
+            },
+            "catedral":{
+                "titulo":"Salamanca Cathedral",
+                "parrafo1":"When we talk about the Salamanca Cathedral, we are specifically referring to two temples joined together. On one hand, there is the Old Cathedral from the 12th–13th centuries, and on the other, the New Cathedral from the 16th century.",
+                "parrafo2":"The Old Cathedral is Romanesque in style and is notable for the Torre del Gallo. Inside this temple, whose construction began in the late 12th century, is the Chapel of San Martín, also known as the Chapel of the Oil. The main altarpiece, dating from the 15th century, also stands out; it was created by several painters led by Dello Delli.",
+                "parrafo3":"The mural painting that covers the vault is the work of Nicolás Florentino. In this large pictorial work, one can see the image of Christ in the Last Judgment. The Old Cathedral draws the visitor’s eye with its beautiful tombs of bishops and noble figures found within. In the New Cathedral, which was built in the 16th century and completed in the 18th century by Churriguera, you can find the image of the Virgin of the Assumption, carved in 1624 by the sculptor Esteban de Rueda. In the New Cathedral, the choir stalls designed by Joaquín Churriguera in 1727 stand out. The Baroque retrochoir of the temple is also of great beauty, featuring Renaissance images such as the Virgin of Loreto and those of Saint John the Baptist."
+            },
+            "casa":{
+                "titulo":"The House of Shells",
+                "parrafo1":"The House of Shells is Gothic in style. Its construction began at the end of the 15th century, although it also incorporates Renaissance and Mudéjar elements. It belongs to the Isabelline period.",
+                "parrafo2":"This civil building attracts the visitor's attention with the more than three hundred shells that adorn its exterior walls. In the 18th century, it suffered cracks, so its upper section was remodeled, which lacks the shells that decorate the rest of the façade. Its entrance door stands out, with a Gothic shield above it depicting fleurs-de-lis. It currently houses the Salamanca Public Library."
+            }
+        },
+        "barcelona":{
+            "titulo":"Barcelona",
+            "parrafo1":"Barcelona is a city brimming with unique leisure options that make it a place you'll want to visit again and again. Open to the Mediterranean Sea and renowned for Gaudí and his modernist architecture, Barcelona stands out as one of Europe's trendiest capitals.",
+            "parrafo2":"The city is a hub for new trends in the world of culture, fashion, and gastronomy. It combines the creativity of its artists and designers with respect and care for its traditional establishments. Here, the charm and tranquility of its historic center coexist with the cutting-edge style of its more modern neighborhoods and the vibrant urban rhythm of one of the world's most visited cities.",
+            "catedral":{
+                "titulo":"Barcelona Cathedral",
+                "parrafo1":"It stands on the site of an early Christian basilica. Construction began during the Romanesque period but was finally completed in the Gothic style, which is the predominant style.",
+                "parrafo2":"The exterior is austere, decorated only with vertical buttresses. The Saint Ivo Gate is a prime example of Catalan Gothic architecture. The interior naves are almost the same height, giving the impression of a single, unified space. The side chapels have upper galleries, which lend the whole a greater sense of light and spaciousness. The dome is covered on the inside with a wooden coffered ceiling. The main façade is of recent construction (late 19th and early 20th centuries), although based on a design from 1408. The entrance from the cloister to the cathedral and the Chapel of Saint Lucy are of particular interest."
+            },
+            "casa":{
+                "titulo":"Casa Batlló",
+                "parrafo1":"It is one of the jewels of Modernism, which Gaudí completely remodeled for the Batlló family, essentially creating a new work of art, changing everything from its façade to its interior structure.",
+                "parrafo2":"The interior courtyard is covered with ceramic tiles designed by Gaudí, starting in dark blue at the top, gradually transitioning to lighter shades of blue, and finally white at the bottom. On the top floor, there is an attic with an organic structure formed by Gaudí's characteristic catenary arches. The rooftop features the dragon's back, pierced by a four-armed marble cross and four sets of chimneys."
+            },
+            "museo":{
+                "titulo":"Museum of Contemporary Art of Barcelona (MACBA)",
+                "parrafo1":"The museum exhibits works of art created over the last 75 years.",
+                "parrafo2":"MACBA opened in 1995 and was designed by the American architect Richard Meier. Its collection features works by contemporary artists such as Antoni Tàpies, Paul Klee, Francesc Torres, Mario Merz, and Zush. The collection focuses on the legacy of the second half of the 20th century and seeks to establish a critical record of the art of that period, from a perspective that considers the cultural and political reality of a specific city like Barcelona."
+            }
+        },
+        "santander":{
+            "titulo":"Santander",
+            "parrafo1":"A city that seems straight out of a fairytale, its life revolving around its bay, recognized as one of the most beautiful in the world.",
+            "parrafo2":"Santander (Cantabria), in northern Spain, combines verdant mountain landscapes with the white sand of its beaches, stately buildings and palatial structures with avant-garde architecture, and an unmistakable echo of its fishing tradition. A city that contains many cities within it, perfect for discovering.",
+            "museo":{
+                "titulo":"Cantabrian Maritime Museum",
+                "parrafo1":"In the Bay of Santander stands the Cantabrian Maritime Museum, a modern and very attractive space, created as a tribute from this region of northern Spain to its sea.",
+                "parrafo2":"Spreading across 3,000 square meters, it explores the relationship between humankind and the marine environment throughout history."
+            },
+            "centro_botin":{
+                "titulo":"Centro Botín",
+                "parrafo":"A cultural space dedicated to contemporary art, music, film, theatre, and literature. The building, designed by Pritzker Prize–winning architect Renzo Piano, is integrated into the Pereda Gardens and occupies a privileged location on the edge of Santander Bay."
+            },
+            "playa":{
+                "titulo":"Mataleñas Beach",
+                "parrafo1":"It's one of the most beautiful beaches in all of Cantabria. From here, you can see Cabo de Ajo. Next to the beach is the Municipal Golf Course with 9 holes. A promenade starts from this beach, runs along the entire golf course, and continues to El Sardinero.",
+                "parrafo2":"To access the beach, you have to go down the steps from the promenade. The sand is white and fine, and the water is absolutely crystal clear. There is a lifeguard service.",
+                "parrafo3":"The promenade offers beautiful views of the Magdalena Peninsula. It's set far inland and sheltered from the winds"
+            }
+        }
+    },
+    "patrimonio":{
+        "ciudad":{
+            "titulo":"",
+            "parrafo1":"",
+            "parrafo2":"",
+            "":{
+                "titulo":"",
+                "parrafo1":"",
+                "parrafo2":""
+            }
         }
     }
 }
