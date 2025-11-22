@@ -60,6 +60,42 @@
             "titulo":"Balearic Islands",
             "parrafo1":"It's one of the most popular destinations in the western Mediterranean, and the reasons are clear. You'll find idyllic coves, stunning sunsets, and breathtaking natural beauty. You can enjoy the islands however you like: with all the tranquility you seek or experiencing the wildest nights imaginable.",
             "parrafo2":"Little slices of paradise to dream about. Some of the most beautiful landscapes are found on the beaches and coves of the Balearic Islands. There's something for everyone. Small, secluded, and almost untouched, ideal for disconnecting, like those in Menorca or Cabrera. Or larger and busier, with all the amenities you need to spend from morning till night, which you'll also find in Mallorca, Ibiza, and Formentera. They all share the turquoise blue of their warm, calm waters and the softness of their white sands."
+        },
+        "sevilla":{
+            "titulo":"Seville",
+            "parrafo1":"Seville is a city that leaves a lasting impression, and many agree it's special. Perhaps it's the grandeur of its monuments. Maybe it's the charm of working-class neighborhoods like Triana.",
+            "parrafo2":"The Giralda is an icon of the city and houses one of its main attractions: its viewpoint. It offers fantastic views of Seville, with an orange tree patio, very typical of Andalusia, and the largest Gothic temple in Europe, the Cathedral, in the foreground. A visit to the Royal Alcázar reveals an extraordinary palace complex brimming with details. If you travel in summer, take advantage of the nighttime tours and the festival held in its gardens.",
+            "parrafo3":"Interesting Facts about Seville Cathedral",
+            "catedral_sevilla":{
+                "titulo":"The Cathedral of Seville",
+                "parrafo1":"It is the largest Gothic cathedral in the world. However, its floor plan is not the Latin cross typical of this type of church, but rather square. This is because it was built on the site of the city's former main mosque, adapting to the existing structure.",
+                "parrafo2":"Thus, the Arab minaret became the building's bell tower, the Giralda, which, at almost one hundred meters tall, was once the tallest tower in the world.",
+                "parrafo3":"The Courtyard of the Orange Trees and the Gate of Forgiveness are also legacies of the mosque."
+            },
+            "giralda":{
+                "titulo":"The Giralda and its 'replicas'",
+                "parrafo1":"Did you know that the Giralda doesn't have stairs, but ramps? There are 35 ramps wide enough for the sultan to ride up on horseback and enjoy the views.",
+                "parrafo2":"The architectural beauty of the Giralda has fascinated so many people that you can find replicas in other parts of Spain and the world. Some of the most successful are the one in Kansas City, in a shopping center; the one in the town of L'Arboç del Penedès (Tarragona); and the so-called Giraldilla at the Church of San Pedro in Carmona (Seville). There was even a copy at Madison Square Garden in New York between 1890 and 1925."
+            },
+            "vidrieria":{
+                "titulo":"The Stained Glass Window of Charles V",
+                "parrafo1":"Seville Cathedral boasts a priceless artistic heritage. In fact, it is considered one of the finest art galleries in Spain, housing works by masters such as Murillo, Velázquez, Goya, and Zurbarán.",
+                "parrafo2":"Among sculptures, paintings, gold and silver work, textiles, and other pieces, you'll find surprises. Its main altarpiece, for example, with 44 reliefs and more than 200 figures, is the largest in Christendom.",
+                "parrafo3":"And don't be surprised if, when looking at the stained glass window of Saint Sebastian (above the Portal of the Sticks), the saint's face seems familiar: he is depicted with the features of Emperor Charles V."
+            },
+            "cocodrilo":{
+                "titulo":"A crocodile in the cathedral!!",
+                "parrafo1":"Don't worry, it doesn't bite. You'll see it hanging from the ceiling, next to an elephant tusk and a bridle, if you enter from the Patio de los Naranjos (Courtyard of the Orange Trees) through the Puerta del Lagarto (Lizard Gate).",
+                "parrafo2":"It is said that these were gifts that the Sultan of Egypt sent to King Alfonso X 'The Wise' to ask for his daughter's hand in marriage. The king rejected the offer but kept the gifts, which included a live crocodile, an elephant tusk, and a domesticated giraffe.",
+                "parrafo3":"You'll probably also be intrigued by the amphorae displayed on the cathedral's roofs: these are the ones the 15th-century builders used to fill the interior of the vaults."
+            },
+            "catedral_respira":{
+                "titulo":"The Cathedral “Breathes”",
+                "parrafo1":"Every day, the vaults of the building expand several centimeters due to temperature changes.",
+                "parrafo2":"In the morning they rise due to the heat, and at the end of the day they descend, in a movement similar to breathing.",
+                "parrafo3":"This phenomenon was discovered in 2006, thanks to sensors installed during a restoration process.",
+                "parrafo4":"This “flexibility,” contrary to what it might seem, is an advantage that makes the cathedral safer, as its architecture allows for movement in the event of a disaster."
+            }
         }
     }
 }

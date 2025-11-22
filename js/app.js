@@ -60,7 +60,6 @@ function cerrarTodosSubMenus(){
 
 function traduccion(lang = 'es') {
 
-    // Calcula ruta relativa automáticamente
     const currentPath = window.location.pathname;
     const depth = currentPath.split('/').length - 2;
     const prefix = "../".repeat(depth);
