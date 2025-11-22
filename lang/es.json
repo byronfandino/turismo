@@ -221,6 +221,35 @@
                 "parrafo1":"Fue creada por el cardenal Cisneros con el nombre de Colegio de San Ildefonso. La riqueza del renacimiento español en su etapa más pura se refleja en la portada, siendo con Salamanca la cuna del humanismo.",
                 "parrafo2":"Se inició su construcción en el siglo XV, terminándose en el XVI bajo la dirección de Pedro Gumiel. Del edificio primitivo solo se conserva el Paraninfo con artesonado y tribuna plateresca. La fachada es lo más importante del edificio. Fue construida por Rodrigo Gil de Hontañón en estilo plateresco, siendo concebida como un retablo dividido por pilastras y columnas. El Paraninfo es una de las mejores muestras del estilo Cisneros, donde se combinan las muestras mudéjar en yesería o madera, y la decoración plateresca."
             }
+        },
+        "avila":{
+            "titulo":"Ávila",
+            "parrafo1":"El símbolo inconfundible de Ávila es su muralla. Se ve desde la distancia y convierte a la ciudad en uno de los recintos amurallados mejor conservados de Europa.",
+            "parrafo2":"En su interior, encontrarás una Ciudad Patrimonio de la Humanidad de calles empedradas, imagen medieval, interesantes iglesias, sabrosa gastronomía y un ambiente sosegado que te ayudará a desconectar.",
+            "muralla":{
+                "titulo":"La muralla y la mística de la ciudad",
+                "parrafo1":"La icónica muralla de Ávila es visitable con un recorrido de 1.700 metros. Sus vistas a la Catedral, a la plaza del Mercado Grande o a los alrededores de la ciudad bien merecen subir a ella. Esta catedral es considerada la primera catedral gótica de España y se encuentra adosada a la muralla porque fue proyectada también como fortaleza.",
+                "parrafo2":"El otro símbolo de la ciudad es Santa Teresa de Jesús, presente en cualquier parte de la ciudad, desde las esculturas honoríficas hasta en el dulce más popular de Ávila: las yemas de Santa Teresa. Puedes visitar el Convento de Santa Teresa, situado en la que fuera su casa natal. Junto al convento, se encuentra el Museo de Santa Teresa.El Real Monasterio de Santo Tomás, la basílica de San Vicente o la basílica de San Pedro son también espacios religiosos de interés. Para aprender más sobre la mística y sus personajes en Ávila, es recomendable conocer el Centro de Interpretación de la Mística. "
+            },
+            "convento":{
+                "titulo":"Convento de Santa Teresa",
+                "parrafo":"El convento, inaugurado en 1636, fue edificado sobre la casa natal de Santa Teresa de Jesús, y proyectado por el arquitecto Fray Alonso de San José. En la iglesia destaca la fachada, de estilo barroco, y el interior, de planta de cruz latina, cuyas naves laterales albergan magníficas esculturas del maestro Gregorio Fernández."
+            },
+            "museo":{
+                "titulo":"Museo del Monasterio de la Encarnación",
+                "parrafo1":"Este recorrido, a través de las evocaciones de Santa Teresa, se enmarca entre un magnífico conjunto de edificios renacentistas, reformados en el siglo XVIII.",
+                "parrafo2":"Más que un museo, se trata de la visita a los recuerdos de Santa Teresa. En este convento hizo sus votos (1537) y vivió durante 27 años. San Juan de la Cruz también paso allí una temporada, como capellán y confesor. Una de las obras más sobresalientes es un dibujo realizado por el propio santo, que representa a Cristo en la cruz."
+            }
+        },
+        "cordoba":{
+            "titulo":"",
+            "parrafo1":"",
+            "parrafo2":"",
+            "":{
+                "titulo":"",
+                "parrafo1":"",
+                "parrafo2":""
+            }
         }
     }
 }  

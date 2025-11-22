@@ -221,6 +221,25 @@
                 "parrafo1":"It was founded by Cardinal Cisneros as the Colegio de San Ildefonso. The richness of the Spanish Renaissance in its purest form is reflected in the façade, making it, along with Salamanca, a cradle of humanism.",
                 "parrafo2":"Construction began in the 15th century and was completed in the 16th under the direction of Pedro Gumiel. Only the Paraninfo (Great Hall) with its coffered ceiling and Plateresque tribune remains from the original building. The façade is the most important feature of the building. It was built by Rodrigo Gil de Hontañón in the Plateresque style, conceived as an altarpiece divided by pilasters and columns. The Paraninfo is one of the finest examples of the Cisneros style, combining Mudéjar elements in plasterwork and woodwork with Plateresque decoration."
             }
+        },
+        "avila":{
+            "titulo":"Ávila",
+            "parrafo1":"The unmistakable symbol of Ávila is its city wall. Visible from afar, it makes the city one of the best-preserved walled enclosures in Europe.",
+            "parrafo2":"Inside, you'll find a World Heritage City with cobbled streets, a medieval atmosphere, interesting churches, delicious cuisine, and a tranquil ambiance that will help you unwind.",
+            "muralla":{
+                "titulo":"The City Walls and the Mystique of the City",
+                "parrafo1":"The iconic city walls of Ávila are open to visitors, offering a 1,700-meter walk along their length. The views of the Cathedral, the Plaza del Mercado Grande, and the surrounding area make the climb well worthwhile. The Cathedral is considered the first Gothic cathedral in Spain and is built against the city walls because it was also designed as a fortress.",
+                "parrafo2":"The other symbol of the city is Saint Teresa of Ávila, whose presence is felt throughout the city, from commemorative sculptures to Ávila's most popular sweet treat: Yemas de Santa Teresa (Saint Teresa's Egg Yolks). You can visit the Convent of Saint Teresa, located in her birthplace. Next to the convent is the Saint Teresa Museum. The Royal Monastery of Santo Tomás, the Basilica of San Vicente, and the Basilica of San Pedro are also religious sites of interest. To learn more about mysticism and its figures in Ávila, a visit to the Mysticism Interpretation Center is highly recommended."
+            },
+            "convento":{
+                "titulo":"Convent of Saint Teresa",
+                "parrafo":"The convent, inaugurated in 1636, was built on the site of the birthplace of Saint Teresa of Ávila and designed by the architect Fray Alonso de San José. The church is notable for its Baroque façade and its Latin cross-shaped interior, whose side aisles house magnificent sculptures by the master Gregorio Fernández."
+            },
+            "museo":{
+                "titulo":"Museum of the Monastery of the Incarnation",
+                "parrafo1":"This tour, through the memories of Saint Teresa, takes place within a magnificent complex of Renaissance buildings, renovated in the 18th century.",
+                "parrafo2":"More than a museum, it is a visit to the memories of Saint Teresa. She took her vows in this convent (1537) and lived there for 27 years. Saint John of the Cross also spent time there, as chaplain and confessor. One of the most outstanding works is a drawing by the saint himself, depicting Christ on the cross."
+            }
         }
     }
 }
