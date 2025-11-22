@@ -240,6 +240,24 @@
                 "parrafo1":"This tour, through the memories of Saint Teresa, takes place within a magnificent complex of Renaissance buildings, renovated in the 18th century.",
                 "parrafo2":"More than a museum, it is a visit to the memories of Saint Teresa. She took her vows in this convent (1537) and lived there for 27 years. Saint John of the Cross also spent time there, as chaplain and confessor. One of the most outstanding works is a drawing by the saint himself, depicting Christ on the cross."
             }
+        },
+        "cordoba":{
+            "titulo":"Córdoba",
+            "parrafo":"Córdoba is world-renowned for its Mosque-Cathedral. It boasts a monumental historic center, a UNESCO World Heritage Site, brimming with charming streets, flower-filled patios, pleasant squares, and lively taverns where you can enjoy a flamenco show or sample the local cuisine.",
+            "mezquita":{
+                "titulo":"The Mosque-Cathedral",
+                "parrafo1":"It is a blend of superimposed architectural styles, the result of nine centuries of construction and renovations.",
+                "parrafo2":"The Mosque-Cathedral of Córdoba, located in the heart of the city's historic center, is one of the finest examples of Islamic art in Spain."
+            },
+            "alcazar":{
+                "titulo":"The Alcázar of the Christian Monarchs",
+                "parrafo":"The Catholic Monarchs ruled this palace-fortress for eight years. This building served as a Christian royal residence, then as the seat of the Tribunal of the Holy Office, later as a civil prison, and finally as a military prison. It boasts magnificent gardens, such as the so-called Paseo de los Reyes (Walk of the Kings), where statues of all the monarchs associated with the Alcázar stand. It was declared a Historical Monument in 1931 and is part of the area declared a UNESCO World Heritage Site in 1994. Its gardens are protected by the 1986 General Urban Development Plan (PGOU). It stands on the remains of the former Caliphate Alcázar."
+            },
+            "templo":{
+                "titulo":"Roman Temple",
+                "parrafo":"The remains of this temple are located next to the Town Hall. Judging by the visible vestiges, it appears to have been quite large. It was dedicated to mythological gods. It stands in the center of a large porticoed square, raised on a high podium supported by Corinthian columns. Construction began during the reign of Emperor Claudius (Julio-Claudian dynasty), although it was completed under Domitian (Flavian dynasty)."
+            }
         }
+        
     }
 }
