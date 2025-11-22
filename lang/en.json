@@ -115,6 +115,22 @@
                 "parrafo2":"Inside, it shares with New York and Venice the world's most important private collection of modern and contemporary art. Bilbao also boasts one of Spain's finest art galleries: the Museum of Fine Arts. Adding to its commitment to a groundbreaking and imaginative image are the Euskalduna Palace, Norman Foster's metro stations, the towers by Isozaki and Pelli, Calatrava's Zubizuri Bridge, and new cultural centers like Philippe Starck's Alhóndiga, built from a former wine warehouse.",
                 "parrafo3":"Furthermore, Bilbao cannot be conceived without its distinctive Old Town, with its more than 700 years of history. It's a pleasure to walk through the so-called 'Seven Streets' and discover emblematic buildings such as the Cathedral or its most elegant theater, inspired by the Paris Opera, the Arriaga, as well as a mix of shops and cafes ranging from the most traditional to the coolest."
             }
+        },
+        "zaragoza":{
+            "titulo":"Zaragoza",
+            "parrafo":"Zaragoza is a city with over 2,000 years of history, known for its colossal Basilica of Our Lady of the Pillar, its Roman foundations, its cultural diversity, and the friendliness of its people.",
+            "cruce":{
+                "titulo":"A Crossroads",
+                "parrafo":"Zaragoza, the capital of Aragon, is the fifth largest city in Spain by population. Located at a crossroads between other major Spanish cities, the capital of the Ebro River stands out as an ideal destination for a city break. Its international airport, high-speed train station, and radial road network place it just two to three hours from the main destinations in northern and central Spain, as well as southern France."
+            },
+            "destino":{
+                "titulo":"A Destination of Surprises",
+                "parrafo":"Zaragoza is a destination where it's easy to feel at home. The friendliness of its people, the accessibility of its spaces, and the freshness of its blue skies provide the perfect setting for a city with a rich heritage, characterized by its cultural diversity. Zaragoza also boasts a monumental, pedestrianized historic center, large green spaces with unique character, kilometers of bike lanes, sustainable public transport, a wide variety of squares, viewpoints, terraces, hidden corners, surprises, palaces, museums, and churches. And to all this is added the warm social atmosphere of its streets, the diverse gastronomy of its restaurants, its tapas bars, and its vibrant nightlife."
+            },
+            "ciudad_monumental":{
+                "titulo":"And a Monumental City",
+                "parrafo":"Zaragoza is a city steeped in historical and monumental heritage. The legacy of its four ancient cultures is evident in its streets. Its main attraction, the Basilica of Our Lady of the Pillar, is the symbol of the city and Zaragoza's second cathedral. Inside, the beautiful works of Francisco de Goya and the venerated statue of Our Lady of the Pillar are highlights. A must-do when visiting the Basilica is climbing the San Francisco de Borja lookout tower. Just a short walk away is the Cathedral of the Savior, the city's main historical church and a prime example of Aragonese Mudéjar art, declared a World Heritage Site by UNESCO. It also houses one of the finest collections of Flemish tapestries from the 15th to 17th centuries."
+            }
         }
     }
 }
