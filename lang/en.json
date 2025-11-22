@@ -207,14 +207,19 @@
         }
     },
     "patrimonio":{
-        "ciudad":{
-            "titulo":"",
-            "parrafo1":"",
-            "parrafo2":"",
-            "":{
-                "titulo":"",
-                "parrafo1":"",
-                "parrafo2":""
+        "alcala":{
+            "titulo":"Alcalá de Henares",
+            "parrafo1":"Alcalá de Henares is the birthplace of Miguel de Cervantes, the universally acclaimed author of 'Don Quixote', and you can visit his birthplace, now a museum.",
+            "parrafo2":"But a trip to this city, just over 30 kilometers from Madrid, is worthwhile for many other reasons: its impressive University with centuries of history, its main street with its characteristic arcades, its ancient Corral de Comedias (open-air theater)... But also for its sunny squares, the abundant tapas served at lunchtime, and the unique atmosphere created during its medieval or Christmas markets.",
+            "museo":{
+                "titulo":"Cervantes Birthplace Museum",
+                "parrafo1":"The building recreates the environment in which one of the most important writers in world literature grew up. It is located in the historic center of Alcalá de Henares, a UNESCO World Heritage Site.",
+                "parrafo2":"Miguel de Cervantes Saavedra, author of the immortal novel *Don Quixote*, was born and spent his childhood on this estate. The interior of the house offers a journey back to the 16th and 17th centuries, thanks to its period decor. The ground floor was where the family's daily life unfolded and included a workroom, kitchen, dining room, the ladies' gallery, and the surgeon's office—Cervantes' father was a surgeon."
+            },
+            "universidad":{
+                "titulo":"University of Alcalá de Henares or Colegio Mayor de San Ildefonso",
+                "parrafo1":"It was founded by Cardinal Cisneros as the Colegio de San Ildefonso. The richness of the Spanish Renaissance in its purest form is reflected in the façade, making it, along with Salamanca, a cradle of humanism.",
+                "parrafo2":"Construction began in the 15th century and was completed in the 16th under the direction of Pedro Gumiel. Only the Paraninfo (Great Hall) with its coffered ceiling and Plateresque tribune remains from the original building. The façade is the most important feature of the building. It was built by Rodrigo Gil de Hontañón in the Plateresque style, conceived as an altarpiece divided by pilasters and columns. The Paraninfo is one of the finest examples of the Cisneros style, combining Mudéjar elements in plasterwork and woodwork with Plateresque decoration."
             }
         }
     }
