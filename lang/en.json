@@ -96,6 +96,25 @@
                 "parrafo3":"This phenomenon was discovered in 2006, thanks to sensors installed during a restoration process.",
                 "parrafo4":"This “flexibility,” contrary to what it might seem, is an advantage that makes the cathedral safer, as its architecture allows for movement in the event of a disaster."
             }
+        },
+        "bilbao":{
+            "titulo":"Bilbao",
+            "parrafo1":"We could also call this Basque Country destination 'the city of the Guggenheim' since Bilbao was forever transformed after the construction of this unique museum in 1997. In fact, it now impresses with its groundbreaking structures created by prestigious architects and is a true international benchmark of modernity.",
+            "parrafo2":"Places you can visit",
+            "gastronomia":{
+                "titulo":"Culinary Tips For Discovering the City",
+                "parrafo":"Bilbao shines in the culinary world, and it knows it! The seven streets of the Old Town and its Plaza Nueva, Licenciado Poza Street in Indautxu, the Albia Gardens in the Ensanche district… There are many possible routes for “going for drinks,” the equivalent of going out for a pintxo in the morning, afternoon, or evening. There are also guided tours that combine pintxo tastings with museum visits."
+            },
+            "pintxo":{
+                "titulo":"The Cultural Significance of the Pintxo",
+                "parrafo":"Creating a pintxo is an exercise in creativity as vast as the combinations of ingredients, both known and yet to be discovered—infinite, in fact. These small appetizers are practically a symbol of identity for the people of Bilbao. 'Discovering' flavors from bar to bar is a delightful culinary adventure. Unlike other parts of Spain, in the Basque Country, pintxos are not considered free tapas and are charged separately. Thus, each establishment is always searching for that perfect blend of star ingredients that will set a trend in the city or retain regular customers. Imagination, a passion for gastronomy, and, of course, good quality ingredients are fundamental to achieving this excellence."
+            },
+            "paseo":{
+                "titulo":"A Stroll Through Contrasts",
+                "parrafo1":"A visit to this northern Spanish city can begin at the Guggenheim Museum. It is one of the most striking examples of 20th-century architecture, as Frank Gehry used 33,000 incredibly thin titanium sheets to create its intriguing curved forms.",
+                "parrafo2":"Inside, it shares with New York and Venice the world's most important private collection of modern and contemporary art. Bilbao also boasts one of Spain's finest art galleries: the Museum of Fine Arts. Adding to its commitment to a groundbreaking and imaginative image are the Euskalduna Palace, Norman Foster's metro stations, the towers by Isozaki and Pelli, Calatrava's Zubizuri Bridge, and new cultural centers like Philippe Starck's Alhóndiga, built from a former wine warehouse.",
+                "parrafo3":"Furthermore, Bilbao cannot be conceived without its distinctive Old Town, with its more than 700 years of history. It's a pleasure to walk through the so-called 'Seven Streets' and discover emblematic buildings such as the Cathedral or its most elegant theater, inspired by the Paris Opera, the Arriaga, as well as a mix of shops and cafes ranging from the most traditional to the coolest."
+            }
         }
     }
 }
