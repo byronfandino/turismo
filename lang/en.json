@@ -371,6 +371,29 @@
                 "parrafo1":"The Mediterranean Maritime Park is the posthumous work of César Manrique. Construction began in 1992 and was completed two years later. It shares similar characteristics with the Lago Martiánez in Puerto de la Cruz.",
                 "parrafo2":"The park covers an area of approximately 56,000 m² and features saltwater lakes, sunbathing areas, gardens, and service facilities. At its center stands a castle inspired by the walls of Ceuta. It also houses a casino, a restaurant, and a nightclub. A marina is located adjacent to the Maritime Park."
             }
+        },
+        "madrid":{
+            "titulo":"Community of Madrid",
+            "parrafo1":"Madrid is culture and vibrant street life. The capital boasts many of Spain's most visited museums, and the surrounding area offers stunning monumental sites.",
+            "parrafo2":"The city of Madrid is open and welcoming, modern and traditional, majestic and down-to-earth, lively and peaceful. But above all, it is culture. It is home to the renowned Art Triangle, which encompasses the Prado Museum, the Reina Sofía National Art Centre, and the Thyssen-Bornemisza Museum within a relatively small area.",
+            "baztan":{
+                "titulo":"Nuevo Baztán",
+                "parrafo1":"Juan de Goyeneche founded this town in the 18th century, commissioning its design from the architect José de Churriguera. Its historic center is a designated Site of Cultural Interest.",
+                "parrafo2":"The Baroque style is a constant feature of the old town of this village, located about 45 kilometers southeast of Madrid, the capital of the Community of Madrid. The monumental complex comprises the Goyeneche Palace, the Church of San Francisco Javier, and the two adjacent squares. The Palace is flanked by a tower adorned with ball finials and has two floors, embellished with semicircular arches."
+            },
+            "batres":{
+                "titulo":"Batres",
+                "parrafo1":"Batres is closely linked to one of the most important figures in Spanish literature, Garcilaso de la Vega. The poet spent part of his childhood in its emblematic castle, as his parents held the lordship of the town. Its old town is a designated Site of Cultural Interest.",
+                "parrafo2":"Batres is located about 44 kilometers from the city of Madrid, next to the Guadarrama River. Batres Castle is undoubtedly its main attraction. Square in plan, it dates from the 15th century and is built of terracotta on flint foundations. It is distinctive for its diamond-shaped corner towers, which are topped with circular terraces. The tallest, the Keep, measures 25 meters. The fortress complex is notable for its beautiful iron balcony, as well as the Renaissance inner courtyard with its Plateresque galleries.",
+                "parrafo3":"In the castle area there is also the so-called Garcilaso Fountain, located under a brick arch and framed by marble plaques with inscribed verses."
+            },
+            "lorenzo":{
+                "titulo":"San Lorenzo de El Escorial",
+                "parrafo1":"Nestled in the heart of the Sierra de Guadarrama mountains, just 50 kilometers from Madrid, lies the town of San Lorenzo de El Escorial.",
+                "parrafo2":"Mount Abantos, its pine forest, and the La Herrería pastureland comprise the natural landscape of this town, whose main attraction is the Monastery of El Escorial.",
+                "parrafo3":"Its urban layout harmoniously blends stately homes in the Herrerian style with rationalist avenues and small, earlier-designed squares.",
+                "parrafo4":"Located in the mountains near Madrid, it offers a multitude of leisure activities and cultural routes, such as those that will take travelers to Ávila, Segovia, Toledo, or Madrid."
+            }
         }
     }
 }
