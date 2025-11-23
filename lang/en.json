@@ -394,6 +394,46 @@
                 "parrafo3":"Its urban layout harmoniously blends stately homes in the Herrerian style with rationalist avenues and small, earlier-designed squares.",
                 "parrafo4":"Located in the mountains near Madrid, it offers a multitude of leisure activities and cultural routes, such as those that will take travelers to Ávila, Segovia, Toledo, or Madrid."
             }
+        },
+        "galicia":{
+            "titulo":"Galicia",
+            "parrafo1":"Its capital, Santiago de Compostela, is the final destination for pilgrims on the famous Camino de Santiago. This alone makes this region of Green Spain worth visiting.",
+            "parrafo2":"You'll love its landscapes of lush valleys and stunning beaches. Along its coastline, bathed by the Cantabrian Sea and the Atlantic Ocean, you'll find areas with spectacular cliffs like those of A Costa da Morte (Coast of Death) or the incredible Atlantic Islands of Galicia National Park.",
+            "lugo":{
+                "titulo":"Lugo (Province)",
+                "parrafo1":"Located in northern Spain, in the northern part of the Galicia region, its capital is the city of Lugo, whose Roman Walls are a UNESCO World Heritage Site.",
+                "parrafo2":"The province is characterized by the striking contrast of its landscapes, encompassing both mountainous areas and a coastline with stunning beaches such as Las Catedrales."
+            },
+            "pontevedra":{
+                "titulo":"Pontevedra (Province)",
+                "parrafo1":"Located in the region of Galicia, in northwestern Spain, Pontevedra offers a unique blend of mountainous terrain and coastline, including the Rías Baixas, all within a short distance. The province is full of beautiful spots and viewpoints overlooking the estuaries, and is particularly known for the Atlantic Islands National Park and its magnificent beaches.",
+                "parrafo2":"A visit to the Romanesque Route is highly recommended, as is exploring the traditional Galician manor houses called pazos. You can also visit towns in Pontevedra province such as Marín, with its megalithic monuments; Vilaboa and Poio, with their petroglyphs; A Guarda, Sanxenxo, Cambados, and Illa de Arousa, all boasting stunning beaches. The capital city, Pontevedra, and its historic center are also must-sees."
+            },
+            "coruna":{
+                "titulo":"A Coruña (Province)",
+                "parrafo1":"Located in the region of Galicia, in northwestern Spain, its Costa da Morte (Coast of Death), with its important marine ecosystems, features steep cliffs, dunes, and fishing villages with traditional lighthouses and beaches.",
+                "parrafo2":"The interior is characterized by its mountains and verdant valleys. Notable areas include the As Mariñas Coruñesas e Terras do Mandeo Biosphere Reserve, the Fraguas de Eume Natural Park, and the Corrubedo Dune Complex and Carregal and Vixán Lagoons Natural Park."
+            }
+        },
+        "pais_vasco":{
+            "titulo":"Basque Country",
+            "parrafo1":"One of the best cuisines in the world, beaches surrounded by nature, examples of cutting-edge architecture, and a unique culture.",
+            "parrafo2":"This region of northern Spain is perfect for a comprehensive visit. If you go to the Basque Country, you must try its famous 'pintxos': miniature gourmet delicacies that you'll see displayed in countless bars. You'll also find several restaurants featuring some of the leading chefs of modern Spanish cuisine. And to sample delicious wines, try the area known as Rioja Alavesa.",
+            "araba":{
+                "titulo":"Araba-Álava (Province)",
+                "parrafo1":"Located in northern Spain, in the southern part of the Basque Country, it is the largest province. The capital is the city of Vitoria-Gasteiz, which is also the capital of the region.",
+                "parrafo2":"There you'll find the Gothic Cathedral of Santa María de Vitoria-Gasteiz, a must-see, especially now that the restoration work is underway. In August, the city celebrates the popular festival of the Virgen Blanca."
+            },
+            "gipuzkoa":{
+                "titulo":"Gipuzkoa (Province)",
+                "parrafo1":"Located in the Basque Country, in northern Spain, Gipuzkoa boasts spectacular beaches along its coastline, part of the Basque Coast, as well as the striking geological formations of the cliffs of Deba and Zumaia.",
+                "parrafo2":"One of the most iconic images of this region is La Concha Bay in its capital, Donostia-San Sebastián. The city blends stately buildings with modern architecture, exemplified by landmarks like the Kursaal Palace, home to the renowned San Sebastián International Film Festival. Along the coast, visitors can explore coastal towns with cultural attractions such as Zarautz, Getaria, Mutriku, and Hondarribia."
+            },
+            "bizkaia":{
+                "titulo":"Bizkaia (Province)",
+                "parrafo1":"Located in the Basque Country, in northern Spain, its capital, Bilbao, stands out as an emblem of contemporary architecture thanks to its avant-garde buildings such as the Guggenheim Museum Bilbao.",
+                "parrafo2":"Bizkaia is the most densely populated province in the Basque Country, encompassing both cities and areas that retain their rural character. It also boasts inland towns with significant heritage, such as Durango, Elorrio, Otxandio, Orduña, and Balmaseda."
+            }
         }
     }
 }

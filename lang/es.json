@@ -394,6 +394,46 @@
                 "parrafo3":"En su trazado urbano armonizan casas señoriales de estilo herreriano, con avenidas racionalistas y pequeñas plazas de diseño anterior. ",
                 "parrafo4":"Enclavada en la sierra madrileña ofrece multitud de oportunidades de ocio y rutas culturales, como las que llevarán al viajero a Ávila, Segovia, Toledo o Madrid."
             }
+        },
+        "galicia":{
+            "titulo":"Galicia",
+            "parrafo1":"Su capital, Santiago de Compostela, es el destino final de los peregrinos del famoso Camino de Santiago. Solo por esto ya merece la pena visitar esta Comunidad de la España Verde.",
+            "parrafo2":"Te encantarán sus paisajes de frondosos valles e impresionantes playas. En su litoral, bañado por el mar Cantábrico y el océano Atlántico, encontrarás zonas de espectaculares acantilados como los de A Costa da Morte o el increíble Parque Nacional de las Islas Atlánticas de Galicia.",
+            "lugo":{
+                "titulo":"Lugo (Provincia)",
+                "parrafo1":"Se sitúa al norte de España, en el norte de la región de Galicia. Su capital es la ciudad de Lugo, cuya Muralla Romana está declarada Patrimonio de la Humanidad por la UNESCO.",
+                "parrafo2":"La provincia se caracteriza por el gran contraste de sus paisajes, ya que posee tanto zona montañosa como litoral con playas impresionantes como la de Las Catedrales."
+            },
+            "pontevedra":{
+                "titulo":"Pontevedra (Provincia)",
+                "parrafo1":"Se sitúa en la región de Galicia, al noroeste de España. En ella, es posible encontrar en pocos kilómetros tanto sierra como costa, la perteneciente a las Rías Baixas. Repleta de lugares de gran belleza y miradores en torno a las rías, destaca el Parque Nacional de las Islas Atlánticas y sus magníficas playas.",
+                "parrafo2":"Es recomendable recorrer su Ruta del Románico, conocer las construcciones típicas llamadas pazos y la visita a localidades de Pontevedra como Marín, con sus monumentos megalíticos; Vilaboa y Poio, con sus petroglifos; La Guardia, Sanxenxo, Cambados o Illa de Arousa, todas con estupendas playas. Imprescindible son también la capital, Pontevedra, y su casco histórico."
+            },
+            "coruna":{
+                "titulo":"A Coruña (Provincia)",
+                "parrafo1":"Se sitúa en la región de Galicia, al noroeste de España. Su Costa da Morte, con importantes ecosistemas marítimos, posee escarpados acantilados, dunas y villas marineras con tradicionales faros y playas.",
+                "parrafo2":"El interior se caracteriza por sus montes y verdes valles. Destacan espacios como la Reserva de la Biosfera As Mariñas Coruñesas e Terras do Mandeo, el Parque Natural de las Fraguas de Eume y el del Complejo Dunar de Corrubedo y Lagunas de Carregal y Vixán."
+            }
+        },
+        "pais_vasco":{
+            "titulo":"País Vasco",
+            "parrafo1":"Una de las mejores gastronomías del mundo, playas rodeadas de naturaleza, ejemplos de arquitectura de vanguardia y una cultura única.",
+            "parrafo2":"Esta zona del norte de España es perfecta para una visita de lo más completa. Si vas al País Vasco tienes que degustar sus famosos “pintxos”: delicias de alta cocina en miniatura que verás expuestas en multitud de bares. Además, hallarás diversos restaurantes de algunos de los grandes chefs de la nueva cocina española. Y para degustar deliciosos vinos, prueba en la zona conocida como Rioja Alavesa.",
+            "araba":{
+                "titulo":"Araba-Álava (Provincia)",
+                "parrafo1":"Se sitúa al norte de España, en el sur del País Vasco, del que es la provincia más extensa. La capital es la ciudad de Vitoria, capital también de la región.",
+                "parrafo2":"En ella, está la Catedral gótica de Santa María de Vitoria, imprescindible, sobre todo ahora que la visita tiene lugar mientras se observan los trabajos de restauración. En el mes de agosto, celebra las fiestas populares de la Virgen Blanca."
+            },
+            "gipuzkoa":{
+                "titulo":"Gipuzkoa (Provincia)",
+                "parrafo1":"Se sitúa en el País Vasco, al norte de España. A lo largo de su litoral, que forma parte de la Costa Vasca, se encuentran espectaculares playas pertenecientes al mar Cantábrico y las curiosas formaciones geológicas de los acantilados de Deba y Zumaia.",
+                "parrafo2":"Una de las imágenes más conocidas de esta zona es la bahía de La Concha de su capital, Donostia-San Sebastián, ciudad que combina edificios señoriales con arquitectura moderna reflejada en edificios como su Palacio Kursaal, donde se celebra el famoso Festival Internacional de Cine de San Sebastián. También en el litoral, el viajero puede conocer villas costeras con atractivos culturales como Zarautz, Getaria, Mutriku u Hondarribia."
+            },
+            "bizkaia":{
+                "titulo":"Bizkaia (Provincia)",
+                "parrafo1":"Se sitúa en el País Vasco, al norte de España. Destaca su capital, Bilbao, convertida en un emblema de la arquitectura contemporánea gracias a sus vanguardistas construcciones como el Museo Guggenheim Bilbao.",
+                "parrafo2":"Vizcaya es el territorio más densamente poblado del País Vasco y en él se pueden encontrar tanto ciudades como zonas que conservan su carácter rural. También hay localidades de interior con un importante patrimonio como, por ejemplo, Durango, Elorrio, Otxandio, Orduña y Balmaseda."
+            }
         }
     }
 }
