@@ -24,25 +24,33 @@ function abrirCerrarMenu() {
 }
 
 function abrirCerrarSubMenu() {
-    const subMenus = document.querySelectorAll('.submenu'); 
-    
+    const subMenus = document.querySelectorAll('.submenu');
+
     subMenus.forEach(menu => {
         const itemMenu = menu.previousElementSibling;
+        const li = itemMenu.parentElement;
 
-        itemMenu.addEventListener('click', () => {
-            if (menu.classList.contains('activo')) {
+        itemMenu.addEventListener('click', (e) => {
+            e.preventDefault(); // evitar que haga scroll arriba
+            const menuAbierto = menu.classList.contains('activo');
 
-                menu.classList.remove('activo');
-                itemMenu.setAttribute('aria-expanded', 'false');
+            cerrarTodosSubMenus();
 
-            }else{
-
-                //Cerrar todos los submenús que se encuentren activos
-                cerrarTodosSubMenus();
-
+            if (!menuAbierto) {
                 menu.classList.add('activo');
                 itemMenu.setAttribute('aria-expanded', 'true');
             }
+        });
+
+        li.addEventListener('mouseenter', () => {
+            cerrarTodosSubMenus();
+            menu.classList.add('activo');
+            itemMenu.setAttribute('aria-expanded', 'true');
+        });
+
+        li.addEventListener('mouseleave', () => {
+            menu.classList.remove('activo');
+            itemMenu.setAttribute('aria-expanded', 'false');
         });
     });
 }
