@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     traduccion();
     guardarIdioma();
     botonesCambiarIdioma();
+    carrusel();
 });
 
 function abrirCerrarMenu() {
@@ -138,70 +139,72 @@ function botonesCambiarIdioma() {
     });
 }
 
-const slides = document.querySelector('.slides');
-const slide = document.querySelectorAll('.slide');
-const prevBtn = document.querySelector('.btn-prev');
-const nextBtn = document.querySelector('.btn-next');
-const indicadores = document.querySelector('.indicadores');
+function carrusel() {
+    const slides = document.querySelector('.slides');
+    const slide = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.btn-prev');
+    const nextBtn = document.querySelector('.btn-next');
+    const indicadores = document.querySelector('.indicadores');
 
-let index = 0;
-const total = slide.length;
-let intervalo;
+    if (!slides || !slide.length) return; 
 
-// Crear indicadores dinámicos
-for (let i = 0; i < total; i++) {
-    const dot = document.createElement('span');
-    dot.classList.add('dot');
-    if (i === 0) dot.classList.add('activo');
-    dot.dataset.id = i;
-    indicadores.appendChild(dot);
-}
+    let index = 0;
+    const total = slide.length;
+    let intervalo;
 
-const dots = document.querySelectorAll('.dot');
+    // Crear indicadores dinámicos
+    for (let i = 0; i < total; i++) {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        if (i === 0) dot.classList.add('activo');
+        dot.dataset.id = i;
+        indicadores.appendChild(dot);
+    }
 
-// Mostrar slide actual
-function mostrarSlide() {
-    slides.style.transform = `translateX(-${index * 100}%)`;
+    const dots = document.querySelectorAll('.dot');
 
-    dots.forEach(dot => dot.classList.remove('activo'));
-    dots[index].classList.add('activo');
-}
+    function mostrarSlide() {
+        slides.style.transform = `translateX(-${index * 100}%)`;
 
-// Siguiente
-function siguiente() {
-    index = (index + 1) % total;
-    mostrarSlide();
-    reiniciarAuto();
-}
+        dots.forEach(dot => dot.classList.remove('activo'));
+        dots[index].classList.add('activo');
+    }
 
-// Anterior
-function anterior() {
-    index = (index - 1 + total) % total;
-    mostrarSlide();
-    reiniciarAuto();
-}
-
-// Auto deslizar
-function autoplay() {
-    intervalo = setInterval(siguiente, 4000);
-}
-
-function reiniciarAuto() {
-    clearInterval(intervalo);
-    autoplay();
-}
-
-// Eventos
-nextBtn.addEventListener('click', siguiente);
-prevBtn.addEventListener('click', anterior);
-
-dots.forEach(dot => {
-    dot.addEventListener('click', (e) => {
-        index = parseInt(e.target.dataset.id);
+    function siguiente() {
+        index = (index + 1) % total;
         mostrarSlide();
         reiniciarAuto();
-    });
-});
+    }
 
-// Iniciar carrusel
-autoplay();
+    function anterior() {
+        index = (index - 1 + total) % total;
+        mostrarSlide();
+        reiniciarAuto();
+    }
+
+    function autoplay() {
+        intervalo = setInterval(siguiente, 4000);
+    }
+
+    function reiniciarAuto() {
+        clearInterval(intervalo);
+        autoplay();
+    }
+
+    // ---- EVENTOS ---- //
+
+    nextBtn.addEventListener('click', siguiente);
+    prevBtn.addEventListener('click', anterior);
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', (e) => {
+            index = parseInt(e.target.dataset.id);
+            mostrarSlide();
+            reiniciarAuto();
+        });
+    });
+
+    // Iniciar carrusel
+    mostrarSlide();
+    autoplay();
+}
