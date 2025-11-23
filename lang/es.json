@@ -319,5 +319,59 @@
                 "parrafo3":"Su sede se encuentra en una casa mudéjar descubierta durante unas obras en 1964 que se acondicionó para museo, siendo inaugurado 18 de enero de 1973. La casa, organizada en torno a un patio central, es ejemplo de arquitectura doméstica mudéjar, de entre los siglos XIV y XV."
             }
         }
+    },
+    "comunidades":{
+        "aragon":{
+            "titulo":"Aragón",
+            "parrafo1":"Visitar la tierra de nacimiento del famoso pintor Francisco de Goya, practicar esquí en sus famosas estaciones y degustar la gastronomía típica de esta región siempre es un placer.",
+            "parrafo2":"Si lo tuyo es la cultura, prepárate para descubrir monasterios, castillos, todos los ejemplos de arquitectura mudéjar declarados Patrimonio de la Humanidad por la UNESCO o monumentos como la Basílica de Nuestra Señora del Pilar. Además, esta zona de España se incluye en el recorrido del famoso Camino de Santiago.",
+            "huesca":{
+                "titulo":"Huesca (Provincia)",
+                "parrafo1":"Pertenece a Aragón y se sitúa al noreste de España. Uno de sus grandes atractivos es la parte montañosa de los Pirineos.",
+                "parrafo2":"Esta zona es ideal para practicar esquí en invierno, con grandes estaciones como Candanchú o Formigal, y deportes de aventura en primavera y otoño.",
+                "parrafo3":"La naturaleza de Huesca sobresale por espacios como el Parque Nacional de Ordesa y Monte Perdido, declarado Patrimonio de la Humanidad por la UNESCO."
+            },
+            "teruel":{
+                "titulo":"Teruel (Provincia)",
+                "parrafo1":"Se sitúa en la zona central de España en el sur de la región de Aragón. En la provincia se encuentran claros ejemplos de la arquitectura mudéjar, cuyo máximo exponente es la ciudad de Teruel, capital de la provincia. Pertenece a la arquitectura mudéjar de Aragón, declarada Patrimonio de la Humanidad por la UNESCO.",
+                "parrafo2":"Otros destinos interesantes en la provincia son Albarracín, con su fortaleza árabe; Mora de Rubielos, que posee uno de los castillos mejor conservados de Aragón; y Alcalá de la Selva, muy frecuentada por senderistas debido a sus bellos paisajes.De su gastronomía, son muy recomendables los derivados del cerdo, en especial el Jamón de Teruel."
+            }
+        },
+        "islas_canarias":{
+            "titulo":"Islas canarias",
+            "parrafo1":"Muchos las conocen como el sol de Europa y destacan por sus suaves temperaturas y su entorno natural. De hecho, cinco de sus islas están declaradas Reserva de la Biosfera y el archipiélago cuenta con cuatro Parques Nacionales.",
+            "parrafo2":"Uno de sus principales atractivos son sus playas, perfectas para descansar tomando el sol o practicando deportes náuticos como el windsurf y el submarinismo. En el interior, encontrarás paisajes sorprendentes que animan a hacer senderismo, cicloturismo, escalada o, incluso, espeleología.",
+            "isla_graciosa":{
+                "titulo":"La Graciosa (Isla)",
+                "parrafo1":"La octava isla canaria es un pequeño paraíso de ensueño para quienes desean tranquilidad, silencio y disfrutar de una naturaleza virgen. Con playas de arena blanca y aguas turquesa, sin asfalto ni contaminación, es un tesoro para descubrir en el que viven poco más de 700 habitantes.",
+                "parrafo2":"Al igual que el resto de las Canarias, La Graciosa cuenta con un clima agradable durante todo el año, por lo que cualquier época es buena para recorrer su paisaje volcánico y bañarse en sus playas. Sus 29 kilómetros cuadrados de territorio están protegidos en su totalidad, ya que son refugio para numerosas aves marinas y forman parte del Parque Natural del Archipiélago Chinijo, cuya reserva marina es la mayor de Europa. Al ser una isla pequeña y de relieve llano, es posible conocerla fácilmente practicando senderismo o en bicicleta a través de las cuatro rutas que la cruzan."
+            },
+            "isla_tenerife":{
+                "titulo":"Tenerife (Isla)",
+                "parrafo1":"La tranquilidad de pasear todos los días en manga corta sin notar frío. El placer de caminar con el mar siempre en el horizonte. La sensación de hundir la planta del pie en la arena. El frescor momentáneo de sentir el agua del Atlántico en un baño en la playa. La alegría de tener al sol como compañero de viaje.",
+                "parrafo2":"A veces, solo pensarlo ya nos hace desconectar. Imagina vivirlo cada día de tus vacaciones y tener la sensación de cuidarte incluso sin intentarlo, de que el día a día te une más y más con el entorno, que vuelves a los orígenes y conectas con la naturaleza."
+            },
+            "isla_lanzarote":{
+                "titulo":"Lanzarote (Isla)",
+                "parrafo1":"Una de las islas más fascinantes del archipiélago canario es, sin duda, Lanzarote. Nada más poner un pie en su territorio, llaman la atención los colores inconfundibles de sus paisajes volcánicos que contrastan con el azul del Atlántico.",
+                "parrafo2":"Apenas hay árboles, pero la belleza de la vegetación que se abre paso sorprende. Los pueblos son de casas blancas de poca altura y el horizonte es infinito. Aquí la naturaleza convive con el arte."
+            }
+        },
+        "ceuta":{
+            "titulo":"Ciudad de Ceuta",
+            "parrafo1":"Una ciudad abierta que une dos continentes y en la que se mezclan cuatro culturas distintas: la cristiana, la musulmana, la hindú y la judía.",
+            "parrafo2":"Hay que visitar las Murallas Reales y el Parque Marítimo del Mediterráneo. Y, si eres aficionado al deporte náutico, disfrutarás de la costa de Ceuta. Podrás navegar en kayak, visitar la ciudad en embarcación de recreo, pescar o avistar tortugas, delfines y ballenas. Aunque quienes más frecuentan su litoral son quienes practican el submarinismo, ya que en sus aguas confluyen el océano Atlántico y el mar Mediterráneo y eso propicia la regeneración constante de su flora y fauna.",
+            "murallas":{
+                "titulo":"Murallas Reales",
+                "parrafo1":"Se trata de una fortificación abalaustrada compuesta por varias líneas defensivas, fosos, espigones y galerías. Fueron levantadas en época medieval, dado el carácter que tiene Ceuta de ciudad-frontera.",
+                "parrafo2":"Con la conquista portuguesa se construyeron dos lienzos de la Muralla Real y sus baluartes, con un foso navegable y un puente levadizo. En la actualidad permanecen los baluartes de la Coraza Alta, de la Bandera y de los Mallorquines."
+            },
+            "parque":{
+                "titulo":"Parque Marítimo del Mediterráneo",
+                "parrafo1":"El Parque Marítimo del Mediterráneo es la obra póstuma de César Manrique. Se comenzó en 1992 finalizándose dos años más tarde. Tiene características similares a las del lago Martiánez del Puerto de la Cruz. ",
+                "parrafo2":"El parque ocupa una superficie de unos 56.000 m2 y alberga lagos de agua salada, solariums, jardines e instalaciones de servicios. En el centro del mismo destaca un castillo inspirado en las murallas de Ceuta. Acoge un casino, un restaurante y una discoteca. Junto al Parque Marítimo está ubicado un puerto deportivo."
+            }
+        }
+
     }
 }

@@ -319,5 +319,58 @@
                 "parrafo3":"The museum is housed in a Mudéjar building discovered during construction work in 1964, which was converted into a museum and inaugurated on January 18, 1973. The house, organized around a central courtyard, is an example of Mudéjar domestic architecture from the 14th and 15th centuries."
             }
         }
+    },
+    "comunidades":{
+        "aragon":{
+            "titulo":"Aragón",
+            "parrafo1":"Visiting the birthplace of the famous painter Francisco de Goya, skiing at its renowned resorts, and savoring the region's typical cuisine is always a delight.",
+            "parrafo2":"If culture is your passion, prepare to discover monasteries, castles, numerous examples of Mudéjar architecture declared UNESCO World Heritage Sites, and monuments such as the Basilica of Our Lady of the Pillar. Furthermore, this region of Spain lies along the route of the famous Camino de Santiago (Way of St. James).",
+            "huesca":{
+                "titulo":"Huesca (Province)",
+                "parrafo1":"It belongs to Aragon and is located in northeastern Spain. One of its main attractions is the mountainous Pyrenees.",
+                "parrafo2":"This area is ideal for skiing in winter, with large resorts like Candanchú and Formigal, and for adventure sports in spring and autumn.",
+                "parrafo3":"Huesca's natural beauty is highlighted by areas such as Ordesa y Monte Perdido National Park, a UNESCO World Heritage Site."
+            },
+            "teruel":{
+                "titulo":"Teruel (Province)",
+                "parrafo1":"Located in central Spain, in the southern part of the Aragon region, the province boasts prime examples of Mudéjar architecture, the most outstanding of which is the city of Teruel, the provincial capital. It belongs to the Mudéjar architecture of Aragon, a UNESCO World Heritage Site.",
+                "parrafo2":"Other interesting destinations in the province include Albarracín, with its Moorish fortress; Mora de Rubielos, home to one of the best-preserved castles in Aragon; and Alcalá de la Selva, a popular destination for hikers thanks to its beautiful landscapes. Among its culinary specialties, pork products are highly recommended, especially Jamón de Teruel (Teruel Ham)."
+            }
+        },
+        "islas_canarias":{
+            "titulo":"Canary Islands",
+            "parrafo1":"Many know them as the sunshine of Europe, and they stand out for their mild temperatures and natural environment. In fact, five of their islands are designated Biosphere Reserves, and the archipelago boasts four National Parks.",
+            "parrafo2":"One of their main attractions is their beaches, perfect for relaxing in the sun or enjoying water sports like windsurfing and scuba diving. Inland, you'll find stunning landscapes that are ideal for hiking, cycling, climbing, or even caving.",
+            "isla_graciosa":{
+                "titulo":"La Graciosa (Island)",
+                "parrafo1":"The eighth Canary Island is a small, dreamlike paradise for those seeking tranquility, silence, and unspoiled nature. With white sand beaches and turquoise waters, free from asphalt and pollution, it's a treasure waiting to be discovered, home to just over 700 inhabitants.",
+                "parrafo2":"Like the rest of the Canary Islands, La Graciosa enjoys a pleasant climate year-round, making any time a good time to explore its volcanic landscape and swim in its beaches. Its 29 square kilometers are entirely protected, serving as a refuge for numerous seabirds and forming part of the Chinijo Archipelago Natural Park, whose marine reserve is the largest in Europe. Being a small island with a flat terrain, it's easy to explore by hiking or cycling along the four trails that crisscross it."
+            },
+            "isla_tenerife":{
+                "titulo":"Tenerife (Island)",
+                "parrafo1":"The tranquility of strolling around every day in short sleeves without feeling the cold. The pleasure of walking with the sea always on the horizon. The sensation of sinking the soles of your feet into the sand. The momentary coolness of feeling the Atlantic water in a swim at the beach. The joy of having the sun as your travel companion.",
+                "parrafo2":"Sometimes, just thinking about it is enough to help us disconnect. Imagine experiencing it every day of your vacation and having the feeling of taking care of yourself without even trying, of how each day connects you more and more with your surroundings, that you return to your roots and reconnect with nature."
+            },
+            "isla_lanzarote":{
+                "titulo":"Lanzarote (Island)",
+                "parrafo1":"One of the most fascinating islands in the Canary archipelago is, without a doubt, Lanzarote. The moment you set foot on its shores, the unmistakable colors of its volcanic landscapes, contrasting with the blue of the Atlantic, immediately catch your eye.",
+                "parrafo2":"There are hardly any trees, but the beauty of the vegetation that does manage to take hold is breathtaking. The villages are made up of low-rise white houses, and the horizon stretches to infinity. Here, nature and art coexist harmoniously."
+            }
+        },
+        "ceuta":{
+            "titulo":"City of Ceuta",
+            "parrafo1":"An open city that unites two continents and where four distinct cultures blend: Christian, Muslim, Hindu, and Jewish.",
+            "parrafo2":"A visit to the Royal Walls and the Mediterranean Maritime Park is a must. And if you're a fan of water sports, you'll love Ceuta's coastline. You can kayak, explore the city by pleasure boat, fish, or go whale watching, spotting turtles, dolphins, and whales. However, its shores are most frequented by scuba divers, as the Atlantic Ocean and the Mediterranean Sea meet here, fostering the constant regeneration of its flora and fauna.",
+            "murallas":{
+                "titulo":"Royal Walls",
+                "parrafo1":"This is a balustraded fortification composed of several defensive lines, moats, breakwaters, and galleries. They were erected in medieval times, given Ceuta's status as a border city.",
+                "parrafo2":"With the Portuguese conquest, two sections of the Royal Wall and its bastions were built, along with a navigable moat and a drawbridge. The bastions of the Coraza Alta, the Bandera, and the Mallorquines remain today."
+            },
+            "parque":{
+                "titulo":"Mediterranean Maritime Park",
+                "parrafo1":"The Mediterranean Maritime Park is the posthumous work of César Manrique. Construction began in 1992 and was completed two years later. It shares similar characteristics with the Lago Martiánez in Puerto de la Cruz.",
+                "parrafo2":"The park covers an area of approximately 56,000 m² and features saltwater lakes, sunbathing areas, gardens, and service facilities. At its center stands a castle inspired by the walls of Ceuta. It also houses a casino, a restaurant, and a nightclub. A marina is located adjacent to the Maritime Park."
+            }
+        }
     }
 }
