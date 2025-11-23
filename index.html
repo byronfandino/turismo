@@ -69,14 +69,55 @@
     </nav>
     
     <main class="main-inicio">
-        <div class="carrusel" role="region" aria-label="Imágenes de destinos turísticos en España">
-            <div class="slide slide-1"></div>
-            <div class="slide slide-2"></div>
-            <div class="slide slide-3"></div>
-            <div class="slide slide-4"></div>
-            <div class="slide slide-5"></div>
+        <!-- Región con etiqueta ARIA y descripción -->
+        <div class="carrusel" id="carrusel"
+            role="region"
+            aria-label="Carrusel de imágenes de destinos turísticos en España"
+            aria-live="polite">
+
+            <!-- Contenedor de slides -->
+            <div class="slides" role="list">
+                
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="1 de 5">
+                    <img src="../images/Carrusel_1.jpg" alt="Vista panorámica de un destino turístico en España">
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="2 de 5">
+                    <img src="../images/Carrusel_2.jpg" alt="Paisaje emblemático de España">
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="3 de 5">
+                    <img src="../images/Carrusel_3.jpg" alt="Monumento histórico en España">
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="4 de 5">
+                    <img src="../images/Carrusel_4.jpg" alt="Arquitectura típica española">
+                </div>
+
+                <div class="slide" role="group" aria-roledescription="slide" aria-label="5 de 5">
+                    <img src="../images/Carrusel_5.jpg" alt="Lugar turístico en España">
+                </div>
+
+            </div>
+
+            <!-- Botones accesibles -->
+            <button class="btn-prev"
+                    aria-label="Imagen anterior"
+                    aria-controls="carrusel">
+                ❮
+            </button>
+
+            <button class="btn-next"
+                    aria-label="Imagen siguiente"
+                    aria-controls="carrusel">
+                ❯
+            </button>
+
+            <!-- Indicadores -->
+            <div class="indicadores" role="tablist" aria-label="Indicadores del carrusel"></div>
         </div>
     </main>
+
 
     <footer class="footer">
         <h2 class="titulo-nivel2" data-lang="comun.footer.contacto">Contacto:</h2>
