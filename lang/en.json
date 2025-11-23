@@ -434,6 +434,21 @@
                 "parrafo1":"Located in the Basque Country, in northern Spain, its capital, Bilbao, stands out as an emblem of contemporary architecture thanks to its avant-garde buildings such as the Guggenheim Museum Bilbao.",
                 "parrafo2":"Bizkaia is the most densely populated province in the Basque Country, encompassing both cities and areas that retain their rural character. It also boasts inland towns with significant heritage, such as Durango, Elorrio, Otxandio, Orduña, and Balmaseda."
             }
+        },
+        "region_murcia":{
+            "titulo":"Region of Murcia",
+            "parrafo1":"The sun shines for more than 3,000 hours a year, and its coast is bathed by two seas with warm waters. In fact, its coastline is known as the Costa Cálida (Warm Coast), and here you'll find long beaches and small coves with a wide range of leisure, sports, and wellness options.",
+            "parrafo2":"One of the most attractive areas is La Manga del Mar Menor, a destination where you can relax, enjoy the sea, and take advantage of the activities at its Nautical Station. You'll also find extensive, white-sand beaches like those of San Pedro del Pinatar; semi-wild coves like those of Cartagena; intriguing landscapes such as the erosions of Mazarrón; and fishing villages like Águilas.",
+            "caravaca":{
+                "titulo":"Caravaca de la Cruz",
+                "parrafo1":"Located in the northwest of the province of Murcia is the town of Caravaca de la Cruz. Its houses, clustered around a castle, boast beautiful examples of the Murcian Renaissance.",
+                "parrafo2":"The area where Caravaca is situated was inhabited by the Argaric, Iberian, and Roman cultures, but the origins of its urban structure can be traced back to the period of Arab rule. After the Reconquista, these territories came under the control of the Knights Templar and later the Order of Santiago. During the 16th and 17th centuries, Caravaca reached its zenith, becoming the political center of a vast territory. As a result, the town displays a wealth of monuments, a testament to its historical importance"
+            },
+            "union":{
+                "titulo":"La Unión",
+                "parrafo1":"The mining industry is a defining feature of La Unión's unique landscape. Located in Murcia, in southeastern Spain, between the beaches of the Mar Menor and the Mediterranean Sea, La Unión has a rich history of mining. Mining is deeply intertwined with the town's past and present, having long been its primary industrial activity.",
+                "parrafo2":"Today, you can explore its history by visiting the Workers' Lyceum, built in 1901 and now a Mining Museum, and the La Unión Mining Park, a 50,000-square-meter park where you can visit an old underground mine and ride a mining train. Discover its historical heritage at sites like the Casa del Piñón (Pine Nut House) and the Old Public Market, and admire the traditional architecture of buildings such as La Cooperativa (The Cooperative)."
+            }
         }
     }
 }
